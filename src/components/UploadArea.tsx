@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -32,53 +31,45 @@ const UploadArea = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto max-w-4xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Upload Your Marriage Certificate</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Upload Your Mexican Marriage Certificate</h2>
           <p className="text-xl text-gray-600">
-            Secure upload for fast, certified translation service
+            Secure upload for fast, certified Spanish to English translation for USA immigration
           </p>
         </div>
         
         <Card className="shadow-xl border">
           <CardHeader>
-            <CardTitle className="text-2xl text-center text-gray-900">Get Your Translation Started</CardTitle>
+            <CardTitle className="text-2xl text-center text-gray-900">Get Your USA Immigration Translation</CardTitle>
           </CardHeader>
           <CardContent className="space-y-6">
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <Label htmlFor="source-language" className="text-gray-700">Source Language</Label>
+                <Label htmlFor="source-language" className="text-gray-700">Document Language</Label>
                 <Select>
                   <SelectTrigger>
-                    <SelectValue placeholder="Language of your certificate" />
+                    <SelectValue placeholder="Spanish (Mexican)" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="spanish">Spanish</SelectItem>
-                    <SelectItem value="portuguese">Portuguese</SelectItem>
-                    <SelectItem value="french">French</SelectItem>
-                    <SelectItem value="german">German</SelectItem>
-                    <SelectItem value="italian">Italian</SelectItem>
-                    <SelectItem value="chinese">Chinese</SelectItem>
-                    <SelectItem value="hindi">Hindi</SelectItem>
-                    <SelectItem value="arabic">Arabic</SelectItem>
-                    <SelectItem value="russian">Russian</SelectItem>
-                    <SelectItem value="other">Other Language</SelectItem>
+                    <SelectItem value="spanish-mexican">Spanish (Mexican)</SelectItem>
+                    <SelectItem value="spanish-general">Spanish (General)</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
               
               <div>
-                <Label htmlFor="country" className="text-gray-700">Issuing Country</Label>
+                <Label htmlFor="state" className="text-gray-700">Mexican State</Label>
                 <Select>
                   <SelectTrigger>
-                    <SelectValue placeholder="Where was it issued?" />
+                    <SelectValue placeholder="Select Mexican state" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="mexico">Mexico</SelectItem>
-                    <SelectItem value="spain">Spain</SelectItem>
-                    <SelectItem value="india">India</SelectItem>
-                    <SelectItem value="philippines">Philippines</SelectItem>
-                    <SelectItem value="china">China</SelectItem>
-                    <SelectItem value="brazil">Brazil</SelectItem>
-                    <SelectItem value="other">Other Country</SelectItem>
+                    <SelectItem value="cdmx">Mexico City (CDMX)</SelectItem>
+                    <SelectItem value="jalisco">Jalisco</SelectItem>
+                    <SelectItem value="nuevo-leon">Nuevo León</SelectItem>
+                    <SelectItem value="guanajuato">Guanajuato</SelectItem>
+                    <SelectItem value="michoacan">Michoacán</SelectItem>
+                    <SelectItem value="veracruz">Veracruz</SelectItem>
+                    <SelectItem value="other">Other Mexican State</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -106,10 +97,10 @@ const UploadArea = () => {
             </div>
             
             <div>
-              <Label htmlFor="special-instructions" className="text-gray-700">Special Instructions (Optional)</Label>
+              <Label htmlFor="special-instructions" className="text-gray-700">Special Instructions for USA Immigration (Optional)</Label>
               <Textarea 
                 id="special-instructions"
-                placeholder="Any specific requirements for your translation..."
+                placeholder="Any specific USCIS requirements or immigration case details..."
                 className="min-h-[80px]"
               />
             </div>
@@ -126,25 +117,25 @@ const UploadArea = () => {
             </div>
             
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
-              <h4 className="font-semibold text-blue-900 mb-3">Your certified translation includes:</h4>
+              <h4 className="font-semibold text-blue-900 mb-3">Your USA immigration translation includes:</h4>
               <div className="grid md:grid-cols-2 gap-2 text-blue-800 text-sm">
                 <div className="space-y-1">
-                  <p>✓ Professional translation by certified translator</p>
-                  <p>✓ Official certification letter and statement</p>
+                  <p>✓ USCIS-compliant certified translation</p>
+                  <p>✓ Official certification letter for USA immigration</p>
                 </div>
                 <div className="space-y-1">
-                  <p>✓ Digital delivery within 24 hours</p>
+                  <p>✓ 24-hour delivery for urgent cases</p>
                   <p>✓ 100% USCIS acceptance guarantee</p>
                 </div>
               </div>
             </div>
             
             <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 text-lg font-semibold">
-              Get Instant Quote & Upload
+              Get USA Immigration Translation Quote
             </Button>
             
             <p className="text-center text-sm text-gray-500">
-              🔒 Your documents are securely encrypted. We maintain strict confidentiality.
+              🔒 Your Mexican documents are securely encrypted. We maintain strict confidentiality for USA immigration cases.
             </p>
           </CardContent>
         </Card>

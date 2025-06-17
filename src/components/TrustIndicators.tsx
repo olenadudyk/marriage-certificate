@@ -9,15 +9,15 @@ const TrustIndicators = () => {
           <div className="flex flex-wrap justify-center items-center gap-8 text-sm text-gray-600">
             <div className="flex items-center gap-2">
               <span className="text-yellow-500">★★★★★</span>
-              <span>4.9/5 from 2,500+ customers</span>
+              <span>4.9/5 from 2,500+ Mexican immigrants</span>
             </div>
             <div className="flex items-center gap-2">
               <span>🏆</span>
-              <span>ATA Certified Translators</span>
+              <span>Spanish Translation Specialists</span>
             </div>
             <div className="flex items-center gap-2">
               <span>✅</span>
-              <span>100% USCIS Acceptance Rate</span>
+              <span>100% USCIS USA Acceptance Rate</span>
             </div>
             <div className="flex items-center gap-2">
               <span>🔒</span>

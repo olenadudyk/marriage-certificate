@@ -5,40 +5,40 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const MarriageExamples = () => {
   const examples = [
     {
-      title: "Spanish Marriage Certificate",
-      country: "Spain",
-      description: "Civil marriage certificate from Spanish Civil Registry",
+      title: "Mexican Civil Marriage Certificate",
+      location: "Mexico City, Mexico",
+      description: "Acta de Matrimonio Civil from Registro Civil",
       features: [
-        "Official government seal translation",
+        "Official Mexican government seal translation",
         "Registrar signature certification", 
-        "Date and location verification",
-        "Spouse name standardization"
+        "Date and location verification in Spanish/English",
+        "Spouse names with proper English formatting"
       ],
-      image: "📄"
+      image: "🇲🇽"
     },
     {
-      title: "Mexican Marriage Certificate", 
-      country: "Mexico",
-      description: "Acta de Matrimonio from Mexican Civil Registry",
+      title: "Mexican Religious Marriage Certificate", 
+      location: "Guadalajara, Jalisco",
+      description: "Certificado de Matrimonio Religioso with civil registration",
       features: [
-        "State seal and stamp translation",
-        "Witness information included",
-        "Registry number certification",
-        "Official format compliance"
+        "Church ceremony certificate translation",
+        "Civil registry validation included",
+        "Witness information and signatures",
+        "Parish and priest details translated"
+      ],
+      image: "⛪"
+    },
+    {
+      title: "Mexican State Marriage Certificate",
+      location: "Monterrey, Nuevo León", 
+      description: "State-issued Acta de Matrimonio with apostille",
+      features: [
+        "State government certification translation",
+        "Apostille seal and stamp translation",
+        "Legal validity confirmation for USA",
+        "Complete document authentication"
       ],
       image: "📋"
-    },
-    {
-      title: "Indian Marriage Certificate",
-      country: "India", 
-      description: "Marriage registration certificate from Indian authorities",
-      features: [
-        "Multi-language document handling",
-        "Religious ceremony details",
-        "Government registration proof",
-        "Apostille preparation ready"
-      ],
-      image: "📜"
     }
   ];
 
@@ -46,10 +46,10 @@ const MarriageExamples = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Marriage Certificate Translation Examples</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Mexican Marriage Certificate Translation Examples</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We translate marriage certificates from any country into certified English translations 
-            accepted by USCIS, embassies, and government agencies.
+            We specialize in translating Mexican marriage certificates into certified English translations 
+            accepted by USCIS and US government agencies for immigration purposes.
           </p>
         </div>
         
@@ -59,11 +59,11 @@ const MarriageExamples = () => {
               <CardHeader className="text-center pb-4">
                 <div className="text-6xl mb-4">{example.image}</div>
                 <CardTitle className="text-xl font-semibold text-gray-900">{example.title}</CardTitle>
-                <p className="text-blue-600 font-medium">From {example.country}</p>
+                <p className="text-blue-600 font-medium">{example.location}</p>
                 <p className="text-gray-600 text-sm">{example.description}</p>
               </CardHeader>
               <CardContent>
-                <h4 className="font-semibold mb-3 text-gray-900">Translation includes:</h4>
+                <h4 className="font-semibold mb-3 text-gray-900">Our translation includes:</h4>
                 <ul className="space-y-2">
                   {example.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start text-sm text-gray-700">
@@ -79,28 +79,28 @@ const MarriageExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Don't see your country?</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Specializing in Mexican Documents for USA Immigration</h3>
             <p className="text-gray-600 mb-6">
-              We translate marriage certificates from every country worldwide. Our certified translators 
-              are experienced with all international marriage document formats and requirements.
+              Our certified translators specialize in Mexican marriage certificates for US immigration applications. 
+              We understand the specific requirements of USCIS and ensure your documents meet all standards.
             </p>
             <div className="grid md:grid-cols-2 gap-6 text-left">
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Common countries we serve:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Mexican states we commonly serve:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>🇲🇽 Mexico • 🇪🇸 Spain • 🇮🇳 India</p>
-                  <p>🇵🇭 Philippines • 🇨🇳 China • 🇻🇳 Vietnam</p>
-                  <p>🇧🇷 Brazil • 🇷🇺 Russia • 🇰🇷 South Korea</p>
-                  <p>🇫🇷 France • 🇩🇪 Germany • 🇮🇹 Italy</p>
+                  <p>🏛️ Mexico City (CDMX) • Jalisco • Nuevo León</p>
+                  <p>🏛️ Guanajuato • Michoacán • Veracruz</p>
+                  <p>🏛️ Puebla • Estado de México • Oaxaca</p>
+                  <p>🏛️ Chihuahua • Sonora • Baja California</p>
                 </div>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">All document types:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Document types we translate:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Civil marriage certificates</p>
-                  <p>• Religious marriage certificates</p>
-                  <p>• Marriage licenses</p>
-                  <p>• Marriage registration documents</p>
+                  <p>• Acta de Matrimonio Civil</p>
+                  <p>• Certificado de Matrimonio Religioso</p>
+                  <p>• Marriage certificates with apostille</p>
+                  <p>• Civil registry marriage documents</p>
                 </div>
               </div>
             </div>
