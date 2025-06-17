@@ -29,50 +29,56 @@ const UploadArea = () => {
   };
 
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 bg-gray-50">
       <div className="container mx-auto max-w-4xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Upload Your Documents</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Upload Your Marriage Certificate</h2>
           <p className="text-xl text-gray-600">
-            Secure, encrypted file upload for your immigration documents
+            Secure upload for fast, certified translation service
           </p>
         </div>
         
-        <Card className="shadow-xl">
+        <Card className="shadow-xl border">
           <CardHeader>
-            <CardTitle className="text-2xl text-center">Start Your Translation</CardTitle>
+            <CardTitle className="text-2xl text-center text-gray-900">Get Your Translation Started</CardTitle>
           </CardHeader>
           <CardContent className="space-y-6">
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <Label htmlFor="document-type">Document Type</Label>
+                <Label htmlFor="source-language" className="text-gray-700">Source Language</Label>
                 <Select>
                   <SelectTrigger>
-                    <SelectValue placeholder="Select document type" />
+                    <SelectValue placeholder="Language of your certificate" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="marriage">Marriage Certificate</SelectItem>
-                    <SelectItem value="birth">Birth Certificate</SelectItem>
-                    <SelectItem value="divorce">Divorce Decree</SelectItem>
-                    <SelectItem value="education">Educational Document</SelectItem>
-                    <SelectItem value="police">Police Certificate</SelectItem>
-                    <SelectItem value="medical">Medical Record</SelectItem>
+                    <SelectItem value="spanish">Spanish</SelectItem>
+                    <SelectItem value="portuguese">Portuguese</SelectItem>
+                    <SelectItem value="french">French</SelectItem>
+                    <SelectItem value="german">German</SelectItem>
+                    <SelectItem value="italian">Italian</SelectItem>
+                    <SelectItem value="chinese">Chinese</SelectItem>
+                    <SelectItem value="hindi">Hindi</SelectItem>
+                    <SelectItem value="arabic">Arabic</SelectItem>
+                    <SelectItem value="russian">Russian</SelectItem>
+                    <SelectItem value="other">Other Language</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
               
               <div>
-                <Label htmlFor="target-language">Translate To</Label>
+                <Label htmlFor="country" className="text-gray-700">Issuing Country</Label>
                 <Select>
                   <SelectTrigger>
-                    <SelectValue placeholder="Select target language" />
+                    <SelectValue placeholder="Where was it issued?" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="english">English</SelectItem>
-                    <SelectItem value="spanish">Spanish</SelectItem>
-                    <SelectItem value="french">French</SelectItem>
-                    <SelectItem value="german">German</SelectItem>
-                    <SelectItem value="other">Other Language</SelectItem>
+                    <SelectItem value="mexico">Mexico</SelectItem>
+                    <SelectItem value="spain">Spain</SelectItem>
+                    <SelectItem value="india">India</SelectItem>
+                    <SelectItem value="philippines">Philippines</SelectItem>
+                    <SelectItem value="china">China</SelectItem>
+                    <SelectItem value="brazil">Brazil</SelectItem>
+                    <SelectItem value="other">Other Country</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -88,53 +94,57 @@ const UploadArea = () => {
               onDrop={handleDrop}
             >
               <Upload className="mx-auto mb-4 text-gray-400" size={48} />
-              <h3 className="text-lg font-semibold mb-2">Drag & Drop Your Files Here</h3>
-              <p className="text-gray-600 mb-4">or click to browse your computer</p>
+              <h3 className="text-lg font-semibold mb-2 text-gray-900">Upload Your Marriage Certificate</h3>
+              <p className="text-gray-600 mb-4">Drag and drop your file here, or click to browse</p>
               <Button variant="outline" className="mb-4">
                 <FileText className="mr-2" size={16} />
                 Choose Files
               </Button>
               <p className="text-sm text-gray-500">
-                Supported formats: PDF, JPG, PNG, DOC, DOCX (Max 10MB per file)
+                Accepted formats: PDF, JPG, PNG (Maximum 10MB)
               </p>
             </div>
             
             <div>
-              <Label htmlFor="special-instructions">Special Instructions (Optional)</Label>
+              <Label htmlFor="special-instructions" className="text-gray-700">Special Instructions (Optional)</Label>
               <Textarea 
                 id="special-instructions"
-                placeholder="Any specific requirements or notes for your translation..."
-                className="min-h-[100px]"
+                placeholder="Any specific requirements for your translation..."
+                className="min-h-[80px]"
               />
             </div>
             
             <div className="grid md:grid-cols-2 gap-4">
               <div>
-                <Label htmlFor="email">Email Address</Label>
+                <Label htmlFor="email" className="text-gray-700">Email Address *</Label>
                 <Input id="email" type="email" placeholder="your@email.com" />
               </div>
               <div>
-                <Label htmlFor="phone">Phone Number (Optional)</Label>
+                <Label htmlFor="phone" className="text-gray-700">Phone Number</Label>
                 <Input id="phone" type="tel" placeholder="+1 (555) 123-4567" />
               </div>
             </div>
             
-            <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-              <h4 className="font-semibold text-blue-900 mb-2">Your translation includes:</h4>
-              <ul className="text-blue-800 text-sm space-y-1">
-                <li>✓ Certified translation by licensed professional</li>
-                <li>✓ Official certification letter for USCIS</li>
-                <li>✓ Digital delivery within 24-48 hours</li>
-                <li>✓ 100% acceptance guarantee</li>
-              </ul>
+            <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
+              <h4 className="font-semibold text-blue-900 mb-3">Your certified translation includes:</h4>
+              <div className="grid md:grid-cols-2 gap-2 text-blue-800 text-sm">
+                <div className="space-y-1">
+                  <p>✓ Professional translation by certified translator</p>
+                  <p>✓ Official certification letter and statement</p>
+                </div>
+                <div className="space-y-1">
+                  <p>✓ Digital delivery within 24 hours</p>
+                  <p>✓ 100% USCIS acceptance guarantee</p>
+                </div>
+              </div>
             </div>
             
-            <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white py-4 text-lg font-semibold">
+            <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 text-lg font-semibold">
               Get Instant Quote & Upload
             </Button>
             
             <p className="text-center text-sm text-gray-500">
-              🔒 Your documents are encrypted and secure. We never share your information.
+              🔒 Your documents are securely encrypted. We maintain strict confidentiality.
             </p>
           </CardContent>
         </Card>
