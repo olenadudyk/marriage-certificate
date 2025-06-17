@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -45,7 +44,7 @@ const Testimonials = () => {
                   <span className="text-3xl mr-3">{testimonial.avatar}</span>
                   <div>
                     <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
-                    <p className="text-sm text-gray-600">{testimonial.country}</p>
+                    <p className="text-sm text-gray-600">{testimonial.location}</p>
                   </div>
                 </div>
                 
