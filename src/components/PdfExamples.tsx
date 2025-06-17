@@ -1,13 +1,13 @@
 
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { FileText, Download } from 'lucide-react';
+import { FileImage, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const PdfExamples = () => {
   const pdfExamples = [
     {
-      title: "Mexican Marriage Certificate - Original Spanish",
+      title: "Spanish Marriage Certificate - Original Document",
       description: "Acta de Matrimonio from Registro Civil de Mexico City",
       location: "Mexico City, CDMX",
       fileSize: "1.2 MB",
@@ -33,7 +33,7 @@ const PdfExamples = () => {
       ]
     },
     {
-      title: "Mexican Religious Marriage Certificate",
+      title: "Spanish Religious Marriage Certificate",
       description: "Certificado Matrimonial from Catholic Church with civil validation",
       location: "Guadalajara, Jalisco",
       fileSize: "950 KB",
@@ -51,9 +51,9 @@ const PdfExamples = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Sample PDF Marriage Certificates</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Sample Document Examples</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            View examples of Mexican marriage certificates we translate for USA immigration. 
+            View examples of Spanish marriage certificates we translate for USA immigration. 
             See the quality and format of our certified translations.
           </p>
         </div>
@@ -62,7 +62,9 @@ const PdfExamples = () => {
           {pdfExamples.map((example, index) => (
             <Card key={index} className="shadow-lg hover:shadow-xl transition-shadow border bg-white">
               <CardHeader className="text-center pb-4">
-                <FileText className="mx-auto mb-4 text-red-600" size={64} />
+                <div className="mx-auto mb-4 w-32 h-40 bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
+                  <FileImage className="text-gray-400" size={32} />
+                </div>
                 <CardTitle className="text-lg font-semibold text-gray-900">{example.title}</CardTitle>
                 <p className="text-blue-600 font-medium text-sm">{example.location}</p>
                 <p className="text-gray-600 text-sm">{example.description}</p>
@@ -93,9 +95,9 @@ const PdfExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-white border rounded-lg p-8 max-w-4xl mx-auto shadow-sm">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional PDF Translation Service</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Document Translation Service</h3>
             <p className="text-gray-600 mb-6">
-              Our Mexican marriage certificate translations maintain the exact format and legal validity 
+              Our Spanish marriage certificate translations maintain the exact format and legal validity 
               required by USCIS for USA immigration applications.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
