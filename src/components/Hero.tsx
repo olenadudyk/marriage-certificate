@@ -38,8 +38,8 @@ const Hero = () => {
           </div>
           <div className="bg-gray-50 rounded-lg p-8 border">
             <Award className="mx-auto mb-4 text-blue-600" size={48} />
-            <h3 className="text-xl font-semibold mb-3 text-gray-900">Mexican Document Specialists</h3>
-            <p className="text-gray-600">Expert translators specializing in Mexican and Latino marriage certificates for US immigration</p>
+            <h3 className="text-xl font-semibold mb-3 text-gray-900">Spanish Document Specialists</h3>
+            <p className="text-gray-600">Expert translators specializing in Spanish and Latino marriage certificates for US immigration</p>
           </div>
         </div>
       </div>
