@@ -9,15 +9,15 @@ const Hero = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-gray-900">
-            Mexican Marriage Certificate Translation
+            Marriage Certificate Translation
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-600 max-w-4xl mx-auto">
             Professional Spanish to English marriage certificate translation for USCIS immigration applications in the USA. 
-            Specializing in Mexican and Latino documents with certified, legally accepted translations delivered in 24 hours.
+            Specializing in Latino documents with certified, legally accepted translations delivered in 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold">
-              Upload Your Mexican Marriage Certificate
+              Upload Your Marriage Certificate
             </Button>
             <Button variant="outline" size="lg" className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-4 text-lg">
               View Sample Translation
