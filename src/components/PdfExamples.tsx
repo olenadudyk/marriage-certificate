@@ -1,15 +1,14 @@
 
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { FileImage, Download } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { FileImage } from 'lucide-react';
 
 const PdfExamples = () => {
   const pdfExamples = [
     {
       title: "Spanish Marriage Certificate - Original Document",
-      description: "Acta de Matrimonio from Registro Civil de Mexico City",
-      location: "Mexico City, CDMX",
+      description: "Acta de Matrimonio from Civil Registry",
+      location: "Latin America",
       fileSize: "1.2 MB",
       pages: "2 pages",
       features: [
@@ -35,7 +34,7 @@ const PdfExamples = () => {
     {
       title: "Spanish Religious Marriage Certificate",
       description: "Certificado Matrimonial from Catholic Church with civil validation",
-      location: "Guadalajara, Jalisco",
+      location: "Spanish-speaking regions",
       fileSize: "950 KB",
       pages: "2 pages", 
       features: [
@@ -76,7 +75,7 @@ const PdfExamples = () => {
               </CardHeader>
               <CardContent>
                 <h4 className="font-semibold mb-3 text-gray-900">Document includes:</h4>
-                <ul className="space-y-2 mb-6">
+                <ul className="space-y-2">
                   {example.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start text-sm text-gray-700">
                       <span className="text-green-600 mr-2 mt-0.5">✓</span>
@@ -84,10 +83,6 @@ const PdfExamples = () => {
                     </li>
                   ))}
                 </ul>
-                <Button variant="outline" className="w-full" size="sm">
-                  <Download className="mr-2" size={16} />
-                  View Sample PDF
-                </Button>
               </CardContent>
             </Card>
           ))}
