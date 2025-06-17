@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { FilePdf, Download } from 'lucide-react';
+import { FileText, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const PdfExamples = () => {
@@ -62,7 +62,7 @@ const PdfExamples = () => {
           {pdfExamples.map((example, index) => (
             <Card key={index} className="shadow-lg hover:shadow-xl transition-shadow border bg-white">
               <CardHeader className="text-center pb-4">
-                <FilePdf className="mx-auto mb-4 text-red-600" size={64} />
+                <FileText className="mx-auto mb-4 text-red-600" size={64} />
                 <CardTitle className="text-lg font-semibold text-gray-900">{example.title}</CardTitle>
                 <p className="text-blue-600 font-medium text-sm">{example.location}</p>
                 <p className="text-gray-600 text-sm">{example.description}</p>
