@@ -5,40 +5,37 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const MarriageExamples = () => {
   const examples = [
     {
-      title: "Spanish Civil Marriage Certificate",
-      location: "Latin America",
-      description: "Acta de Matrimonio Civil from Civil Registry",
+      title: "Civil Marriage Certificate",
+      description: "Official government-issued marriage document",
       features: [
-        "Official government seal translation",
-        "Registrar signature certification", 
-        "Date and location verification in Spanish/English",
-        "Spouse names with proper English formatting"
+        "Government seal translation",
+        "Official signatures certified", 
+        "Date and location verified",
+        "Names properly formatted"
       ],
-      image: "🏛️"
+      image: "📄"
     },
     {
-      title: "Spanish Religious Marriage Certificate", 
-      location: "Spanish-speaking countries",
-      description: "Certificado de Matrimonio Religioso with civil registration",
+      title: "Religious Marriage Certificate", 
+      description: "Church-issued marriage certificate with civil validation",
       features: [
-        "Church ceremony certificate translation",
-        "Civil registry validation included",
-        "Witness information and signatures",
-        "Parish and priest details translated"
+        "Church ceremony details",
+        "Civil registration included",
+        "Witness signatures",
+        "Religious authority certification"
       ],
       image: "⛪"
     },
     {
-      title: "Spanish State Marriage Certificate",
-      location: "Various regions", 
-      description: "State-issued Acta de Matrimonio with apostille",
+      title: "State Marriage Certificate",
+      description: "State-issued marriage document with official validation",
       features: [
-        "State government certification translation",
-        "Apostille seal and stamp translation",
-        "Legal validity confirmation for USA",
-        "Complete document authentication"
+        "State certification",
+        "Official stamps and seals",
+        "Legal validity confirmed",
+        "Complete authentication"
       ],
-      image: "📋"
+      image: "🏛️"
     }
   ];
 
@@ -46,10 +43,10 @@ const MarriageExamples = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Spanish Marriage Certificate Translation Examples</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Marriage Certificate Translation</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We specialize in translating Spanish marriage certificates into certified English translations 
-            accepted by USCIS and US government agencies for immigration purposes.
+            Professional translation services for marriage certificates accepted by 
+            USCIS and US government agencies for immigration purposes.
           </p>
         </div>
         
@@ -59,11 +56,10 @@ const MarriageExamples = () => {
               <CardHeader className="text-center pb-4">
                 <div className="text-6xl mb-4">{example.image}</div>
                 <CardTitle className="text-xl font-semibold text-gray-900">{example.title}</CardTitle>
-                <p className="text-blue-600 font-medium">{example.location}</p>
                 <p className="text-gray-600 text-sm">{example.description}</p>
               </CardHeader>
               <CardContent>
-                <h4 className="font-semibold mb-3 text-gray-900">Our translation includes:</h4>
+                <h4 className="font-semibold mb-3 text-gray-900">Translation includes:</h4>
                 <ul className="space-y-2">
                   {example.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start text-sm text-gray-700">
@@ -79,28 +75,28 @@ const MarriageExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Specializing in Spanish Documents for USA Immigration</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Translation Service</h3>
             <p className="text-gray-600 mb-6">
-              Our certified translators specialize in Spanish marriage certificates for US immigration applications. 
-              We understand the specific requirements of USCIS and ensure your documents meet all standards.
+              Our certified translators provide accurate translations that meet 
+              USCIS requirements for US immigration applications.
             </p>
             <div className="grid md:grid-cols-2 gap-6 text-left">
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Regions we commonly serve:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Languages we serve:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>🌎 Mexico • Central America • South America</p>
-                  <p>🌎 Spain • Caribbean • Latin America</p>
-                  <p>🌎 Argentina • Colombia • Peru</p>
-                  <p>🌎 Chile • Ecuador • Venezuela</p>
+                  <p>• Spanish to English</p>
+                  <p>• Portuguese to English</p>
+                  <p>• French to English</p>
+                  <p>• Other languages available</p>
                 </div>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Document types we translate:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Document types:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Acta de Matrimonio Civil</p>
-                  <p>• Certificado de Matrimonio Religioso</p>
-                  <p>• Marriage certificates with apostille</p>
-                  <p>• Civil registry marriage documents</p>
+                  <p>• Civil marriage certificates</p>
+                  <p>• Religious marriage certificates</p>
+                  <p>• State-issued documents</p>
+                  <p>• Apostilled certificates</p>
                 </div>
               </div>
             </div>
