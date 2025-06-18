@@ -9,19 +9,19 @@ const TrustIndicators = () => {
           <div className="flex flex-wrap justify-center items-center gap-8 text-sm text-gray-600">
             <div className="flex items-center gap-2">
               <span className="text-yellow-500">★★★★★</span>
-              <span>4.9/5 de más de 2,500 inmigrantes</span>
+              <span>4.9/5 from over 3,200 clients</span>
             </div>
             <div className="flex items-center gap-2">
               <span>🏆</span>
-              <span>Especialistas en Traducción del Español</span>
+              <span>Apostille Translation Specialists</span>
             </div>
             <div className="flex items-center gap-2">
               <span>✅</span>
-              <span>100% Tasa de Aceptación USCIS Estados Unidos</span>
+              <span>100% USCIS Acceptance Rate</span>
             </div>
             <div className="flex items-center gap-2">
               <span>🔒</span>
-              <span>Seguro y Confidencial</span>
+              <span>Secure and Confidential</span>
             </div>
           </div>
         </div>
