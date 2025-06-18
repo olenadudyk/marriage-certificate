@@ -5,35 +5,35 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const MarriageExamples = () => {
   const examples = [
     {
-      title: "Civil Marriage Certificate",
-      description: "Official government-issued marriage document",
+      title: "Acta de Matrimonio Civil",
+      description: "Documento de matrimonio oficial emitido por el gobierno",
       features: [
-        "Government seal translation",
-        "Official signatures certified", 
-        "Date and location verified",
-        "Names properly formatted"
+        "Traducción de sello gubernamental",
+        "Firmas oficiales certificadas", 
+        "Fecha y ubicación verificadas",
+        "Nombres formateados correctamente"
       ],
       image: "📄"
     },
     {
-      title: "Religious Marriage Certificate", 
-      description: "Church-issued marriage certificate with civil validation",
+      title: "Acta de Matrimonio Religioso", 
+      description: "Acta de matrimonio emitida por la iglesia con validación civil",
       features: [
-        "Church ceremony details",
-        "Civil registration included",
-        "Witness signatures",
-        "Religious authority certification"
+        "Detalles de ceremonia religiosa",
+        "Registro civil incluido",
+        "Firmas de testigos",
+        "Certificación de autoridad religiosa"
       ],
       image: "⛪"
     },
     {
-      title: "State Marriage Certificate",
-      description: "State-issued marriage document with official validation",
+      title: "Acta de Matrimonio Estatal",
+      description: "Documento de matrimonio emitido por el estado con validación oficial",
       features: [
-        "State certification",
-        "Official stamps and seals",
-        "Legal validity confirmed",
-        "Complete authentication"
+        "Certificación estatal",
+        "Sellos y estampillas oficiales",
+        "Validez legal confirmada",
+        "Autenticación completa"
       ],
       image: "🏛️"
     }
@@ -43,10 +43,10 @@ const MarriageExamples = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Marriage Certificate Translation</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Traducción de Actas de Matrimonio</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Professional translation services for marriage certificates accepted by 
-            USCIS and US government agencies for immigration purposes.
+            Servicios de traducción profesional para actas de matrimonio aceptadas por 
+            USCIS y agencias gubernamentales de Estados Unidos para propósitos de inmigración.
           </p>
         </div>
         
@@ -59,7 +59,7 @@ const MarriageExamples = () => {
                 <p className="text-gray-600 text-sm">{example.description}</p>
               </CardHeader>
               <CardContent>
-                <h4 className="font-semibold mb-3 text-gray-900">Translation includes:</h4>
+                <h4 className="font-semibold mb-3 text-gray-900">La traducción incluye:</h4>
                 <ul className="space-y-2">
                   {example.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start text-sm text-gray-700">
@@ -75,28 +75,28 @@ const MarriageExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Translation Service</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio de Traducción Profesional</h3>
             <p className="text-gray-600 mb-6">
-              Our certified translators provide accurate translations that meet 
-              USCIS requirements for US immigration applications.
+              Nuestros traductores certificados proporcionan traducciones precisas que cumplen 
+              con los requisitos de USCIS para solicitudes de inmigración a Estados Unidos.
             </p>
             <div className="grid md:grid-cols-2 gap-6 text-left">
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Languages we serve:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Idiomas que servimos:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Spanish to English</p>
-                  <p>• Portuguese to English</p>
-                  <p>• French to English</p>
-                  <p>• Other languages available</p>
+                  <p>• Español a Inglés</p>
+                  <p>• Portugués a Inglés</p>
+                  <p>• Francés a Inglés</p>
+                  <p>• Otros idiomas disponibles</p>
                 </div>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Document types:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Tipos de documentos:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Civil marriage certificates</p>
-                  <p>• Religious marriage certificates</p>
-                  <p>• State-issued documents</p>
-                  <p>• Apostilled certificates</p>
+                  <p>• Actas de matrimonio civil</p>
+                  <p>• Actas de matrimonio religioso</p>
+                  <p>• Documentos emitidos por el estado</p>
+                  <p>• Certificados apostillados</p>
                 </div>
               </div>
             </div>

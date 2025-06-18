@@ -6,42 +6,42 @@ import { FileImage } from 'lucide-react';
 const PdfExamples = () => {
   const pdfExamples = [
     {
-      title: "Spanish Marriage Certificate - Original Document",
-      description: "Acta de Matrimonio from Civil Registry",
-      location: "Latin America",
+      title: "Acta de Matrimonio en Español - Documento Original",
+      description: "Acta de Matrimonio del Registro Civil",
+      location: "América Latina",
       fileSize: "1.2 MB",
-      pages: "2 pages",
+      pages: "2 páginas",
       features: [
-        "Official government seal",
-        "Registrar signatures", 
-        "Legal stamps and annotations",
-        "Complete spouse information"
+        "Sello oficial del gobierno",
+        "Firmas del registrador", 
+        "Sellos y anotaciones legales",
+        "Información completa de los cónyuges"
       ]
     },
     {
-      title: "Certified English Translation - USCIS Format",
-      description: "Professional translation with certification letter",
-      location: "USA Immigration Ready",
+      title: "Traducción Certificada al Inglés - Formato USCIS",
+      description: "Traducción profesional con carta de certificación",
+      location: "Listo para inmigración a Estados Unidos",
       fileSize: "1.8 MB", 
-      pages: "3 pages",
+      pages: "3 páginas",
       features: [
-        "USCIS-compliant format",
-        "Translator certification",
-        "Official letterhead",
-        "Notarized attestation"
+        "Formato conforme a USCIS",
+        "Certificación del traductor",
+        "Membrete oficial",
+        "Certificación notariada"
       ]
     },
     {
-      title: "Spanish Religious Marriage Certificate",
-      description: "Certificado Matrimonial from Catholic Church with civil validation",
-      location: "Spanish-speaking regions",
+      title: "Acta de Matrimonio Religioso en Español",
+      description: "Certificado Matrimonial de la Iglesia Católica con validación civil",
+      location: "Regiones de habla hispana",
       fileSize: "950 KB",
-      pages: "2 pages", 
+      pages: "2 páginas", 
       features: [
-        "Church ceremony details",
-        "Priest and witness signatures",
-        "Civil registration validation",
-        "Parish official stamps"
+        "Detalles de ceremonia religiosa",
+        "Firmas del sacerdote y testigos",
+        "Validación de registro civil",
+        "Sellos oficiales de la parroquia"
       ]
     }
   ];
@@ -50,10 +50,10 @@ const PdfExamples = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Sample Document Examples</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Ejemplos de Documentos de Muestra</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            View examples of Spanish marriage certificates we translate for USA immigration. 
-            See the quality and format of our certified translations.
+            Ve ejemplos de actas de matrimonio en español que traducimos para inmigración a Estados Unidos. 
+            Observa la calidad y formato de nuestras traducciones certificadas.
           </p>
         </div>
         
@@ -74,7 +74,7 @@ const PdfExamples = () => {
                 </div>
               </CardHeader>
               <CardContent>
-                <h4 className="font-semibold mb-3 text-gray-900">Document includes:</h4>
+                <h4 className="font-semibold mb-3 text-gray-900">El documento incluye:</h4>
                 <ul className="space-y-2">
                   {example.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start text-sm text-gray-700">
@@ -90,23 +90,23 @@ const PdfExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-white border rounded-lg p-8 max-w-4xl mx-auto shadow-sm">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Document Translation Service</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción de Documentos</h3>
             <p className="text-gray-600 mb-6">
-              Our Spanish marriage certificate translations maintain the exact format and legal validity 
-              required by USCIS for USA immigration applications.
+              Nuestras traducciones de actas de matrimonio en español mantienen el formato exacto y la validez legal 
+              requerida por USCIS para solicitudes de inmigración a Estados Unidos.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-2">PDF Format</div>
-                <div className="text-gray-600 text-sm">High-quality scanned documents</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">Formato PDF</div>
+                <div className="text-gray-600 text-sm">Documentos escaneados de alta calidad</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-2">Certified</div>
-                <div className="text-gray-600 text-sm">USCIS-accepted translations</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">Certificado</div>
+                <div className="text-gray-600 text-sm">Traducciones aceptadas por USCIS</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-2">24 Hours</div>
-                <div className="text-gray-600 text-sm">Fast delivery guaranteed</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">24 Horas</div>
+                <div className="text-gray-600 text-sm">Entrega rápida garantizada</div>
               </div>
             </div>
           </div>

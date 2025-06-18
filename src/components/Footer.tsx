@@ -10,41 +10,41 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Translate.com</h3>
             <p className="text-gray-300 mb-4 text-sm">
-              Professional marriage certificate translation services. 
-              Certified, accurate, and USCIS-accepted.
+              Servicios profesionales de traducción de actas de matrimonio. 
+              Certificadas, precisas y aceptadas por USCIS.
             </p>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Translation Services</h4>
+            <h4 className="font-semibold mb-4">Servicios de Traducción</h4>
             <ul className="space-y-2 text-gray-300 text-sm">
-              <li><a href="#" className="hover:text-white">Marriage Certificate Translation</a></li>
-              <li><a href="#" className="hover:text-white">Certified Translation</a></li>
-              <li><a href="#" className="hover:text-white">USCIS Translation</a></li>
-              <li><a href="#" className="hover:text-white">Legal Document Translation</a></li>
+              <li><a href="#" className="hover:text-white">Traducción de Actas de Matrimonio</a></li>
+              <li><a href="#" className="hover:text-white">Traducción Certificada</a></li>
+              <li><a href="#" className="hover:text-white">Traducción USCIS</a></li>
+              <li><a href="#" className="hover:text-white">Traducción de Documentos Legales</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Support</h4>
+            <h4 className="font-semibold mb-4">Soporte</h4>
             <ul className="space-y-2 text-gray-300 text-sm">
-              <li><a href="#" className="hover:text-white">FAQ</a></li>
-              <li><a href="#" className="hover:text-white">Sample Translations</a></li>
-              <li><a href="#" className="hover:text-white">Track Order</a></li>
-              <li><a href="#" className="hover:text-white">Contact Support</a></li>
+              <li><a href="#" className="hover:text-white">Preguntas Frecuentes</a></li>
+              <li><a href="#" className="hover:text-white">Traducciones de Ejemplo</a></li>
+              <li><a href="#" className="hover:text-white">Rastrear Pedido</a></li>
+              <li><a href="#" className="hover:text-white">Contactar Soporte</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Get Started</h4>
+            <h4 className="font-semibold mb-4">Comienza</h4>
             <p className="text-gray-300 mb-4 text-sm">
-              Upload your marriage certificate now.
+              Sube tu acta de matrimonio ahora.
             </p>
             <Button className="w-full bg-blue-600 hover:bg-blue-700 mb-4">
-              Upload Document
+              Subir Documento
             </Button>
             <div className="text-xs text-gray-400 space-y-1">
-              <p>📞 24/7 Customer Support</p>
+              <p>📞 Soporte al Cliente 24/7</p>
               <p>📧 support@translate.com</p>
             </div>
           </div>
@@ -53,12 +53,12 @@ const Footer = () => {
         <div className="border-t border-gray-700 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm">
             <div className="text-gray-400 mb-4 md:mb-0">
-              © 2024 Translate.com. All rights reserved.
+              © 2024 Translate.com. Todos los derechos reservados.
             </div>
             <div className="flex items-center space-x-4 text-xs text-gray-400">
-              <span>🔒 SSL Secured</span>
-              <span>✅ HIPAA Compliant</span>
-              <span>🏆 ATA Certified</span>
+              <span>🔒 Protegido con SSL</span>
+              <span>✅ Conforme a HIPAA</span>
+              <span>🏆 Certificado ATA</span>
             </div>
           </div>
         </div>
