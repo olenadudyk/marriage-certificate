@@ -2,7 +2,7 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import TrustIndicators from '../components/TrustIndicators';
-import MarriageExamples from '../components/MarriageExamples';
+import ApostilleExamples from '../components/apostille/ApostilleExamples';
 import PdfExamples from '../components/PdfExamples';
 import UploadArea from '../components/UploadArea';
 import Testimonials from '../components/Testimonials';
@@ -13,7 +13,7 @@ const Index = () => {
     <div className="min-h-screen bg-white">
       <Hero />
       <TrustIndicators />
-      <MarriageExamples />
+      <ApostilleExamples />
       <PdfExamples />
       <UploadArea />
       <Testimonials />

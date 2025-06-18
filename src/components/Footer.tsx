@@ -11,41 +11,41 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">ApostilleTranslate.com</h3>
             <p className="text-gray-300 mb-4 text-sm">
               Professional apostille document translation services. 
-              Certified, accurate and USCIS-accepted.
+              Certified, accurate and legally accepted worldwide.
             </p>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Translation Services</h4>
+            <h4 className="font-semibold mb-4">Apostille Translation Services</h4>
             <ul className="space-y-2 text-gray-300 text-sm">
-              <li><a href="#" className="hover:text-white">Apostille Document Translation</a></li>
-              <li><a href="#" className="hover:text-white">Certified Translation</a></li>
-              <li><a href="#" className="hover:text-white">USCIS Translation</a></li>
-              <li><a href="#" className="hover:text-white">Legal Document Translation</a></li>
+              <li><a href="#" className="hover:text-white">Birth Certificate Apostille Translation</a></li>
+              <li><a href="#" className="hover:text-white">Diploma Apostille Translation</a></li>
+              <li><a href="#" className="hover:text-white">Marriage Certificate Apostille Translation</a></li>
+              <li><a href="#" className="hover:text-white">Legal Document Apostille Translation</a></li>
             </ul>
           </div>
           
           <div>
             <h4 className="font-semibold mb-4">Support</h4>
             <ul className="space-y-2 text-gray-300 text-sm">
-              <li><a href="#" className="hover:text-white">Frequently Asked Questions</a></li>
-              <li><a href="#" className="hover:text-white">Translation Samples</a></li>
-              <li><a href="#" className="hover:text-white">Track Order</a></li>
-              <li><a href="#" className="hover:text-white">Contact Support</a></li>
+              <li><a href="#" className="hover:text-white">Apostille Translation FAQ</a></li>
+              <li><a href="#" className="hover:text-white">Apostille Translation Samples</a></li>
+              <li><a href="#" className="hover:text-white">Track Apostille Translation</a></li>
+              <li><a href="#" className="hover:text-white">Contact Apostille Experts</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Get Started</h4>
+            <h4 className="font-semibold mb-4">Get Apostille Translation</h4>
             <p className="text-gray-300 mb-4 text-sm">
-              Upload your apostille document now.
+              Upload your apostille document for professional translation.
             </p>
             <Button className="w-full bg-blue-600 hover:bg-blue-700 mb-4">
-              Upload Document
+              Upload Apostille Document
             </Button>
             <div className="text-xs text-gray-400 space-y-1">
-              <p>📞 24/7 Customer Support</p>
-              <p>📧 support@apostilletranslate.com</p>
+              <p>📞 24/7 Apostille Translation Support</p>
+              <p>📧 apostille@apostilletranslate.com</p>
             </div>
           </div>
         </div>
@@ -53,12 +53,12 @@ const Footer = () => {
         <div className="border-t border-gray-700 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm">
             <div className="text-gray-400 mb-4 md:mb-0">
-              © 2024 ApostilleTranslate.com. All rights reserved.
+              © 2024 ApostilleTranslate.com. Professional Apostille Document Translation Services.
             </div>
             <div className="flex items-center space-x-4 text-xs text-gray-400">
               <span>🔒 SSL Protected</span>
-              <span>✅ HIPAA Compliant</span>
-              <span>🏆 ATA Certified</span>
+              <span>✅ Apostille Certified</span>
+              <span>🏆 Translation Experts</span>
             </div>
           </div>
         </div>
