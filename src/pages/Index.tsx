@@ -1,23 +1,23 @@
 
 import React from 'react';
-import Hero from '../components/Hero';
-import TrustIndicators from '../components/TrustIndicators';
-import DiplomaExamples from '../components/diploma/DiplomaExamples';
-import DiplomaPdfExamples from '../components/diploma/DiplomaPdfExamples';
-import UploadArea from '../components/UploadArea';
-import Testimonials from '../components/Testimonials';
-import Footer from '../components/Footer';
+import BirthCertificateHero from '../components/birthcertificate/BirthCertificateHero';
+import BirthCertificateTrustIndicators from '../components/birthcertificate/BirthCertificateTrustIndicators';
+import BirthCertificateExamples from '../components/birthcertificate/BirthCertificateExamples';
+import BirthCertificatePdfExamples from '../components/birthcertificate/BirthCertificatePdfExamples';
+import BirthCertificateUploadArea from '../components/birthcertificate/BirthCertificateUploadArea';
+import BirthCertificateTestimonials from '../components/birthcertificate/BirthCertificateTestimonials';
+import BirthCertificateFooter from '../components/birthcertificate/BirthCertificateFooter';
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-white">
-      <Hero />
-      <TrustIndicators />
-      <DiplomaExamples />
-      <DiplomaPdfExamples />
-      <UploadArea />
-      <Testimonials />
-      <Footer />
+      <BirthCertificateHero />
+      <BirthCertificateTrustIndicators />
+      <BirthCertificateExamples />
+      <BirthCertificatePdfExamples />
+      <BirthCertificateUploadArea />
+      <BirthCertificateTestimonials />
+      <BirthCertificateFooter />
     </div>
   );
 };
