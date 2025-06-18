@@ -14,7 +14,7 @@ const UploadArea = () => {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Upload Your Diploma for Translation</h2>
           <p className="text-xl text-gray-600">
-            Secure upload for professional diploma translation with complete apostille certification
+            Secure upload for professional diploma translation with complete certification
           </p>
         </div>
         
@@ -27,7 +27,7 @@ const UploadArea = () => {
               <h4 className="font-semibold text-blue-900 mb-4 text-xl">Your diploma translation includes:</h4>
               <div className="grid md:grid-cols-2 gap-4 text-blue-800">
                 <div className="space-y-2">
-                  <p>✓ Complete apostille seal translation</p>
+                  <p>✓ Complete seal translation</p>
                   <p>✓ University signature certification</p>
                   <p>✓ Official academic content translation</p>
                 </div>

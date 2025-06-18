@@ -8,21 +8,21 @@ const Testimonials = () => {
       name: "Sofia Martinez",
       location: "Colombia → New York, United States",
       rating: 5,
-      text: "Perfect translation of my Colombian engineering diploma with apostille. They translated every academic detail including grades, honors, and the apostille seal. My university accepted it immediately for my Master's program application.",
+      text: "Perfect translation of my Colombian engineering diploma. They translated every academic detail including grades, honors, and the official seal. My university accepted it immediately for my Master's program application.",
       avatar: "👩‍🎓"
     },
     {
       name: "Diego Rodriguez", 
       location: "Spain → California, United States",
       rating: 5,
-      text: "Excellent diploma translation service for my Spanish business degree. They understood all the academic terminology and apostille authentication details perfectly. Fast delivery helped me meet my job application deadline.",
+      text: "Excellent diploma translation service for my Spanish business degree. They understood all the academic terminology and authentication details perfectly. Fast delivery helped me meet my job application deadline.",
       avatar: "👨‍💼"
     },
     {
       name: "Carmen Gonzalez",
       location: "Mexico → Texas, United States",
       rating: 5,
-      text: "Outstanding service for my Mexican medical degree with apostille. They translated the entire document including specialized medical terms and apostille certification with perfect accuracy. USCIS accepted it without questions.",
+      text: "Outstanding service for my Mexican medical degree. They translated the entire document including specialized medical terms and certification with perfect accuracy. USCIS accepted it without questions.",
       avatar: "👩‍⚕️"
     }
   ];

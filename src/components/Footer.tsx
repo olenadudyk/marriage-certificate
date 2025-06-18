@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">DiplomaTranslate.com</h3>
             <p className="text-gray-300 mb-4 text-sm">
-              Professional diploma translation services with apostille certification. 
+              Professional diploma translation services with official certification. 
               Certified, accurate and academically accepted worldwide.
             </p>
           </div>
@@ -38,7 +38,7 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Get Diploma Translation</h4>
             <p className="text-gray-300 mb-4 text-sm">
-              Upload your diploma for professional translation with apostille certification.
+              Upload your diploma for professional translation with official certification.
             </p>
             <Button className="w-full bg-blue-600 hover:bg-blue-700 mb-4">
               Upload Diploma Document

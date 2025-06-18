@@ -33,14 +33,14 @@ const DiplomaPdfExamples = () => {
     },
     {
       title: "Professional Diploma in Spanish",
-      description: "Technical or Professional Certificate with civil validation",
+      description: "Technical or Professional Certificate with validation",
       location: "Spanish-speaking regions",
       fileSize: "1.1 MB",
       pages: "2 pages", 
       features: [
         "Professional specialization details",
         "Institution accreditation info",
-        "Civil registry validation",
+        "Official registry validation",
         "Official institutional seals"
       ]
     }

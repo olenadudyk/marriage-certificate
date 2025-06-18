@@ -5,34 +5,34 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const DiplomaExamples = () => {
   const examples = [
     {
-      title: "University Degree with Apostille",
-      description: "Bachelor's or Master's degree with apostille authentication",
+      title: "University Degree Translation",
+      description: "Bachelor's or Master's degree with official certification",
       features: [
-        "Apostille seal translation",
-        "University registrar signatures certified", 
+        "University seal translation",
+        "Registrar signatures certified", 
         "Academic honors and GPA included",
         "Graduation date verified"
       ],
       image: "🎓"
     },
     {
-      title: "Professional Diploma with Apostille", 
-      description: "Technical or professional diploma with apostille validation",
+      title: "Professional Diploma Translation", 
+      description: "Technical or professional diploma with official validation",
       features: [
         "Professional credentials verified",
         "Institution details included",
         "Specialization areas translated",
-        "Apostille authentication certified"
+        "Official certification included"
       ],
       image: "📜"
     },
     {
-      title: "Academic Transcript with Apostille",
-      description: "Official academic transcript with apostille for credential evaluation",
+      title: "Academic Transcript Translation",
+      description: "Official academic transcript for credential evaluation",
       features: [
         "Complete course listing",
         "Grades and credit hours",
-        "Apostille certification",
+        "Official certification",
         "Institution accreditation details"
       ],
       image: "📊"
@@ -43,9 +43,9 @@ const DiplomaExamples = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Diploma Translation with Apostille</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Professional Diploma Translation</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Professional translation services for apostilled diplomas accepted by 
+            Expert translation services for diplomas accepted by 
             US universities, employers, and USCIS for immigration and educational purposes.
           </p>
         </div>
@@ -93,10 +93,10 @@ const DiplomaExamples = () => {
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Document types:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• University degrees with apostille</p>
-                  <p>• College diplomas with apostille</p>
-                  <p>• Academic transcripts with apostille</p>
-                  <p>• Professional certificates with apostille</p>
+                  <p>• University degrees</p>
+                  <p>• College diplomas</p>
+                  <p>• Academic transcripts</p>
+                  <p>• Professional certificates</p>
                 </div>
               </div>
             </div>
