@@ -2,8 +2,6 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import TrustIndicators from '../components/TrustIndicators';
-import ApostilleExamples from '../components/apostille/ApostilleExamples';
-import PdfExamples from '../components/PdfExamples';
 import UploadArea from '../components/UploadArea';
 import Testimonials from '../components/Testimonials';
 import Footer from '../components/Footer';
@@ -13,8 +11,6 @@ const Index = () => {
     <div className="min-h-screen bg-white">
       <Hero />
       <TrustIndicators />
-      <ApostilleExamples />
-      <PdfExamples />
       <UploadArea />
       <Testimonials />
       <Footer />
