@@ -97,8 +97,8 @@ const DiplomaPdfExamples = () => {
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-2">PDF Format</div>
-                <div className="text-gray-600 text-sm">High-quality scanned documents</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">Multiple Formats</div>
+                <div className="text-gray-600 text-sm">PDF, JPG, PNG, and scanned documents</div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-blue-600 mb-2">Certified</div>
