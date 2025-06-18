@@ -5,25 +5,25 @@ import { Card, CardContent } from '@/components/ui/card';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Maria Rodriguez",
-      location: "Colombia → Texas, United States",
+      name: "Sofia Martinez",
+      location: "Colombia → New York, United States",
       rating: 5,
-      text: "Perfect translation of my Colombian birth certificate with apostille. They translated every detail including the apostille seal and government signatures. USCIS accepted it immediately for my green card application.",
-      avatar: "👩‍💼"
+      text: "Perfect translation of my Colombian engineering diploma with apostille. They translated every academic detail including grades, honors, and the apostille seal. My university accepted it immediately for my Master's program application.",
+      avatar: "👩‍🎓"
     },
     {
-      name: "Carlos Mendez", 
+      name: "Diego Rodriguez", 
       location: "Spain → California, United States",
       rating: 5,
-      text: "Excellent apostille translation service for my Spanish university diploma. They understood all the academic terminology and apostille authentication details perfectly. Fast delivery for my urgent case.",
+      text: "Excellent diploma translation service for my Spanish business degree. They understood all the academic terminology and apostille authentication details perfectly. Fast delivery helped me meet my job application deadline.",
       avatar: "👨‍💼"
     },
     {
-      name: "Ana Gutierrez",
-      location: "Argentina → Florida, United States",
+      name: "Carmen Gonzalez",
+      location: "Mexico → Texas, United States",
       rating: 5,
-      text: "Outstanding service for my Argentine marriage certificate with apostille. They translated the entire document including the apostille seal with perfect accuracy. The translation was accepted without any questions.",
-      avatar: "👩‍💻"
+      text: "Outstanding service for my Mexican medical degree with apostille. They translated the entire document including specialized medical terms and apostille certification with perfect accuracy. USCIS accepted it without questions.",
+      avatar: "👩‍⚕️"
     }
   ];
 
@@ -31,9 +31,9 @@ const Testimonials = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-6xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Apostille Translation Clients Say</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Diploma Translation Clients Say</h2>
           <p className="text-xl text-gray-600">
-            Trusted by thousands for professional apostille document translations
+            Trusted by thousands for professional diploma and educational document translations
           </p>
         </div>
         
@@ -63,19 +63,19 @@ const Testimonials = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Apostille Translation Statistics</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Diploma Translation Statistics</h3>
             <div className="grid md:grid-cols-3 gap-8 text-center">
               <div>
-                <div className="text-3xl font-bold text-blue-600 mb-2">15,000+</div>
-                <div className="text-gray-600">Apostille Documents Translated</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">8,500+</div>
+                <div className="text-gray-600">Diplomas Translated</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">100%</div>
-                <div className="text-gray-600">Apostille Translation Accuracy</div>
+                <div className="text-gray-600">University Acceptance Rate</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">24hrs</div>
-                <div className="text-gray-600">Average Apostille Translation Time</div>
+                <div className="text-gray-600">Average Translation Time</div>
               </div>
             </div>
           </div>
