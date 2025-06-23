@@ -16,11 +16,10 @@ const ContractHeader = () => {
             onClick={handleLogoClick}
           >
             <div className="bg-blue-600 text-white px-3 py-2 rounded-lg font-bold text-xl mr-3">
-              CT
+              T
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">ContractTranslate.com</h1>
-              <p className="text-sm text-gray-600">Professional Translation Services</p>
+              <h1 className="text-xl font-bold text-gray-900">Translate.com</h1>
             </div>
           </div>
           
