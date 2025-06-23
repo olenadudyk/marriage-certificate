@@ -6,60 +6,68 @@ const ContractFooter = () => {
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="container mx-auto max-w-6xl px-4">
+        <div className="mb-8 text-center">
+          <p className="text-gray-300 mb-4">
+            Business time 7 AM to 4 PM (UTC 0), Mon-Fri.
+          </p>
+        </div>
+        
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">ContractTranslate.com</h3>
-            <p className="text-gray-300 mb-4 text-sm">
-              Professional contract translation services with official certification. 
-              Certified, accurate and legally accepted worldwide.
-            </p>
+            <h4 className="font-semibold mb-4">English</h4>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Contract Translation Services</h4>
+            <h4 className="font-semibold mb-4">For Customers</h4>
             <ul className="space-y-2 text-gray-300 text-sm">
-              <li><a href="#" className="hover:text-white">Employment Contract Translation</a></li>
-              <li><a href="#" className="hover:text-white">Commercial Agreement Translation</a></li>
-              <li><a href="#" className="hover:text-white">Service Contract Translation</a></li>
-              <li><a href="#" className="hover:text-white">International Contract Translation</a></li>
+              <li><a href="#" className="hover:text-white">Translate.com Services</a></li>
+              <li><a href="#" className="hover:text-white">Translate Document Online</a></li>
+              <li><a href="#" className="hover:text-white">Business translation</a></li>
+              <li><a href="#" className="hover:text-white">Medical translation</a></li>
+              <li><a href="#" className="hover:text-white">Technical translation</a></li>
+              <li><a href="#" className="hover:text-white">Email translation</a></li>
+              <li><a href="#" className="hover:text-white">Proofreading</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Support</h4>
+            <h4 className="font-semibold mb-4">For Business</h4>
             <ul className="space-y-2 text-gray-300 text-sm">
-              <li><a href="#" className="hover:text-white">Contract Translation FAQ</a></li>
-              <li><a href="#" className="hover:text-white">Business Document Translation Samples</a></li>
-              <li><a href="#" className="hover:text-white">Track Contract Translation</a></li>
-              <li><a href="#" className="hover:text-white">Contact Business Document Experts</a></li>
+              <li><a href="#" className="hover:text-white">Translate.com API</a></li>
+              <li><a href="#" className="hover:text-white">API Documentation</a></li>
+              <li><a href="#" className="hover:text-white">Zendesk Integration</a></li>
+              <li><a href="#" className="hover:text-white">Zapier Integration</a></li>
+              <li><a href="#" className="hover:text-white">All Integrations</a></li>
+              <li><a href="#" className="hover:text-white">Translate JSON</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Get Contract Translation</h4>
-            <p className="text-gray-300 mb-4 text-sm">
-              Upload your contract for professional translation with official certification.
-            </p>
-            <Button className="w-full bg-blue-600 hover:bg-blue-700 mb-4">
-              Upload Contract Document
-            </Button>
-            <div className="text-xs text-gray-400 space-y-1">
-              <p>📞 24/7 Business Document Translation Support</p>
-              <p>📧 contracts@contracttranslate.com</p>
+            <h4 className="font-semibold mb-4">Resources</h4>
+            <ul className="space-y-2 text-gray-300 text-sm">
+              <li><a href="#" className="hover:text-white">Machine Translation</a></li>
+              <li><a href="#" className="hover:text-white">Dictionaries</a></li>
+              <li><a href="#" className="hover:text-white">Language Pairs</a></li>
+              <li><a href="#" className="hover:text-white"><span className="bg-red-600 text-white px-1 py-0.5 rounded text-xs mr-1">NEW!</span>English-French</a></li>
+            </ul>
+            <div className="mt-6">
+              <h4 className="font-semibold mb-4">Company</h4>
+              <ul className="space-y-2 text-gray-300 text-sm">
+                <li><a href="#" className="hover:text-white">About us</a></li>
+                <li><a href="#" className="hover:text-white">Contact us</a></li>
+                <li><a href="#" className="hover:text-white">Terms of Service</a></li>
+                <li><a href="#" className="hover:text-white">Help center</a></li>
+              </ul>
+            </div>
+            <div className="mt-6">
+              <h4 className="font-semibold mb-4">For Translators</h4>
             </div>
           </div>
         </div>
         
         <div className="border-t border-gray-700 pt-6">
-          <div className="flex flex-col md:flex-row justify-between items-center text-sm">
-            <div className="text-gray-400 mb-4 md:mb-0">
-              © 2024 ContractTranslate.com. Professional Business Document Translation Services.
-            </div>
-            <div className="flex items-center space-x-4 text-xs text-gray-400">
-              <span>🔒 SSL Protected</span>
-              <span>✅ Court Certified</span>
-              <span>📋 Business Document Translation Experts</span>
-            </div>
+          <div className="text-center text-sm text-gray-400">
+            Copyright ©2011-2025 Translate LLC. All rights reserved.
           </div>
         </div>
       </div>
