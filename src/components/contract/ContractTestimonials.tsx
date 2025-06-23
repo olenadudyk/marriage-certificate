@@ -5,24 +5,24 @@ import { Card, CardContent } from '@/components/ui/card';
 const ContractTestimonials = () => {
   const testimonials = [
     {
-      name: "Maria Rodriguez",
-      role: "International Traveler",
-      company: "Vacation Rental Customer",
-      text: "Perfect driver's license translation for my Spanish license. Every detail was translated accurately and certified for my car rental in Florida. The translation was accepted immediately.",
+      name: "María Rodríguez",
+      role: "Viajera Internacional",
+      company: "Cliente de Alquiler Vacacional",
+      text: "Traducción perfecta de licencia de conducir para mi licencia española. Cada detalle fue traducido con precisión y certificado para mi alquiler de auto en Florida. La traducción fue aceptada inmediatamente.",
       rating: 5
     },
     {
       name: "James Wilson",
-      role: "Immigration Consultant",
+      role: "Consultor de Inmigración",
       company: "Wilson Immigration Services",
-      text: "Excellent service for driver's license translations. Fast, accurate, and legally compliant. Our clients trust these translations for all their official procedures and travel needs.",
+      text: "Excelente servicio para traducciones de licencias de conducir. Rápido, preciso y legalmente conforme. Nuestros clientes confían en estas traducciones para todos sus procedimientos oficiales y necesidades de viaje.",
       rating: 5
     },
     {
-      name: "Carmen Gutierrez",
-      role: "Corporate Relocation Manager",
+      name: "Carmen Gutiérrez",
+      role: "Gerente de Reubicación Corporativa",
       company: "Global Mobility Solutions",
-      text: "Professional driver's license translation service. The certified translation met all our legal requirements for employee relocation. Highly recommended for business use.",
+      text: "Servicio de traducción de licencias de conducir profesional. La traducción certificada cumplió con todos nuestros requisitos legales para reubicación de empleados. Altamente recomendado para uso empresarial.",
       rating: 5
     }
   ];
@@ -31,9 +31,9 @@ const ContractTestimonials = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-6xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Driver's License Translation Clients Say</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Lo Que Dicen Nuestros Clientes de Traducción de Licencias de Conducir</h2>
           <p className="text-xl text-gray-600">
-            Trusted by travelers, businesses, and individuals for professional driver's license translations
+            Confiado por viajeros, empresas e individuos para traducciones profesionales de licencias de conducir
           </p>
         </div>
         
@@ -59,23 +59,23 @@ const ContractTestimonials = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Join Thousands of Satisfied Driving Customers</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Únase a Miles de Clientes de Conducción Satisfechos</h3>
             <p className="text-gray-600 mb-6">
-              Professional driver's license translation services trusted by international travelers, 
-              car rental agencies, and individuals worldwide for accurate and certified document translation.
+              Servicios de traducción de licencias de conducir profesionales confiados por viajeros internacionales, 
+              agencias de alquiler de autos e individuos en todo el mundo para traducción precisa y certificada de documentos.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">4,500+</div>
-                <div className="text-gray-600">Driver's License Translations Completed</div>
+                <div className="text-gray-600">Traducciones de Licencias de Conducir Completadas</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">98%</div>
-                <div className="text-gray-600">Customer Satisfaction Rate</div>
+                <div className="text-gray-600">Tasa de Satisfacción del Cliente</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">24hr</div>
-                <div className="text-gray-600">Average Delivery Time</div>
+                <div className="text-gray-600">Tiempo Promedio de Entrega</div>
               </div>
             </div>
           </div>
