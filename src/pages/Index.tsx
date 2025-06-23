@@ -1,25 +1,25 @@
 
 import React from 'react';
-import ContractHeader from '../components/contract/ContractHeader';
-import ContractHero from '../components/contract/ContractHero';
-import ContractTrustIndicators from '../components/contract/ContractTrustIndicators';
-import ContractExamples from '../components/contract/ContractExamples';
-import ContractPdfExamples from '../components/contract/ContractPdfExamples';
-import ContractUploadArea from '../components/contract/ContractUploadArea';
-import ContractTestimonials from '../components/contract/ContractTestimonials';
-import ContractFooter from '../components/contract/ContractFooter';
+import DeathCertificateHeader from '../components/deathcertificate/DeathCertificateHeader';
+import DeathCertificateHero from '../components/deathcertificate/DeathCertificateHero';
+import DeathCertificateTrustIndicators from '../components/deathcertificate/DeathCertificateTrustIndicators';
+import DeathCertificateExamples from '../components/deathcertificate/DeathCertificateExamples';
+import DeathCertificatePdfExamples from '../components/deathcertificate/DeathCertificatePdfExamples';
+import DeathCertificateUploadArea from '../components/deathcertificate/DeathCertificateUploadArea';
+import DeathCertificateTestimonials from '../components/deathcertificate/DeathCertificateTestimonials';
+import DeathCertificateFooter from '../components/deathcertificate/DeathCertificateFooter';
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-white">
-      <ContractHeader />
-      <ContractHero />
-      <ContractTrustIndicators />
-      <ContractExamples />
-      <ContractPdfExamples />
-      <ContractUploadArea />
-      <ContractTestimonials />
-      <ContractFooter />
+      <DeathCertificateHeader />
+      <DeathCertificateHero />
+      <DeathCertificateTrustIndicators />
+      <DeathCertificateExamples />
+      <DeathCertificatePdfExamples />
+      <DeathCertificateUploadArea />
+      <DeathCertificateTestimonials />
+      <DeathCertificateFooter />
     </div>
   );
 };
