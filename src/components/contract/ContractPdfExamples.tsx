@@ -6,42 +6,42 @@ import { FileImage } from 'lucide-react';
 const ContractPdfExamples = () => {
   const pdfExamples = [
     {
-      title: "Spanish Business Contract - Original Document",
-      description: "Complete commercial agreement from Spanish company",
-      location: "Spain, Latin America",
+      title: "Contrato Comercial Español - Documento Original",
+      description: "Acuerdo comercial completo de empresa española",
+      location: "España, América Latina",
       fileSize: "2.1 MB",
-      pages: "8 pages",
+      pages: "8 páginas",
       features: [
-        "Legal terms and conditions",
-        "Corporate signatures", 
-        "Payment clauses",
-        "Liability provisions"
+        "Términos y condiciones legales",
+        "Firmas corporativas", 
+        "Cláusulas de pago",
+        "Disposiciones de responsabilidad"
       ]
     },
     {
-      title: "Certified English Translation - Legal Format",
-      description: "Professional translation with certification letter",
-      location: "Ready for US business and legal use",
+      title: "Traducción Certificada al Inglés - Formato Legal",
+      description: "Traducción profesional con carta de certificación",
+      location: "Listo para uso comercial y legal en EE.UU.",
       fileSize: "2.8 MB", 
-      pages: "10 pages",
+      pages: "10 páginas",
       features: [
-        "Legal compliant format",
-        "Translator certification",
-        "Official letterhead",
-        "Notarized certification"
+        "Formato legalmente conforme",
+        "Certificación del traductor",
+        "Membrete oficial",
+        "Certificación notarizada"
       ]
     },
     {
-      title: "Mexican Employment Contract with Translation",
-      description: "Labor agreement with certified translation",
-      location: "Mexico and other Spanish-speaking countries",
+      title: "Contrato Laboral Mexicano con Traducción",
+      description: "Acuerdo laboral con traducción certificada",
+      location: "México y otros países de habla hispana",
       fileSize: "1.9 MB",
-      pages: "6 pages", 
+      pages: "6 páginas", 
       features: [
-        "Complete employment terms",
-        "Legal compliance validation",
-        "Certified translation certificate",
-        "Business standard verification"
+        "Términos completos de empleo",
+        "Validación de cumplimiento legal",
+        "Certificado de traducción certificada",
+        "Verificación de estándares comerciales"
       ]
     }
   ];
@@ -50,10 +50,10 @@ const ContractPdfExamples = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Contract Document Examples</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Ejemplos de Documentos de Contratos</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See examples of Spanish contracts we translate for US business and legal proceedings. 
-            View the quality and format of our certified business document translations.
+            Vea ejemplos de contratos en español que traducimos para negocios estadounidenses y procedimientos legales. 
+            Observe la calidad y formato de nuestras traducciones certificadas de documentos comerciales.
           </p>
         </div>
         
@@ -74,7 +74,7 @@ const ContractPdfExamples = () => {
                 </div>
               </CardHeader>
               <CardContent>
-                <h4 className="font-semibold mb-3 text-gray-900">The document includes:</h4>
+                <h4 className="font-semibold mb-3 text-gray-900">El documento incluye:</h4>
                 <ul className="space-y-2">
                   {example.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start text-sm text-gray-700">
@@ -90,23 +90,23 @@ const ContractPdfExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-white border rounded-lg p-8 max-w-4xl mx-auto shadow-sm">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Contract Translation Service</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción de Contratos</h3>
             <p className="text-gray-600 mb-6">
-              Our contract translations maintain exact legal formatting and business validity 
-              required by courts, corporate legal departments, and international business institutions.
+              Nuestras traducciones de contratos mantienen el formato legal exacto y la validez comercial 
+              requerida por tribunales, departamentos legales corporativos e instituciones comerciales internacionales.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-2">Multiple Formats</div>
-                <div className="text-gray-600 text-sm">PDF, Word, JPG, PNG, and scanned documents</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">Múltiples Formatos</div>
+                <div className="text-gray-600 text-sm">PDF, Word, JPG, PNG y documentos escaneados</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-2">Certified</div>
-                <div className="text-gray-600 text-sm">Translations accepted by courts</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">Certificado</div>
+                <div className="text-gray-600 text-sm">Traducciones aceptadas por tribunales</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-2">24 Hours</div>
-                <div className="text-gray-600 text-sm">Fast delivery guaranteed</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">24 Horas</div>
+                <div className="text-gray-600 text-sm">Entrega rápida garantizada</div>
               </div>
             </div>
           </div>

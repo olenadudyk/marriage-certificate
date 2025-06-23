@@ -5,24 +5,24 @@ import { Card, CardContent } from '@/components/ui/card';
 const ContractTestimonials = () => {
   const testimonials = [
     {
-      name: "Maria Rodriguez",
-      role: "International Business Manager",
+      name: "María Rodríguez",
+      role: "Gerente de Negocios Internacionales",
       company: "Global Commerce Solutions",
-      text: "The contract translation was perfect for our Spanish partnership. Every legal clause was accurately translated and certified for our international agreement.",
+      text: "La traducción del contrato fue perfecta para nuestra asociación española. Cada cláusula legal fue traducida con precisión y certificada para nuestro acuerdo internacional.",
       rating: 5
     },
     {
       name: "James Wilson",
-      role: "Corporate Legal Counsel",
+      role: "Asesor Legal Corporativo",
       company: "Wilson & Associates Law",
-      text: "Excellent service for employment contract translations. Fast, accurate, and legally compliant. Our clients trust these translations for all business proceedings.",
+      text: "Excelente servicio para traducciones de contratos laborales. Rápido, preciso y legalmente conforme. Nuestros clientes confían en estas traducciones para todos los procedimientos comerciales.",
       rating: 5
     },
     {
-      name: "Carmen Gutierrez",
-      role: "HR Director",
+      name: "Carmen Gutiérrez",
+      role: "Directora de RRHH",
       company: "TechStart International",
-      text: "Professional contract translation service. The certified translation met all our legal requirements for international hiring. Highly recommended for business use.",
+      text: "Servicio profesional de traducción de contratos. La traducción certificada cumplió con todos nuestros requisitos legales para contratación internacional. Altamente recomendado para uso comercial.",
       rating: 5
     }
   ];
@@ -31,9 +31,9 @@ const ContractTestimonials = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-6xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Contract Translation Clients Say</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Lo Que Dicen Nuestros Clientes de Traducción de Contratos</h2>
           <p className="text-xl text-gray-600">
-            Trusted by businesses, legal firms, and corporations for professional contract translations
+            Confiado por empresas, firmas legales y corporaciones para traducciones profesionales de contratos
           </p>
         </div>
         
@@ -59,23 +59,23 @@ const ContractTestimonials = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Join Thousands of Satisfied Business Clients</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Únase a Miles de Clientes Comerciales Satisfechos</h3>
             <p className="text-gray-600 mb-6">
-              Professional contract translation services trusted by international businesses, 
-              legal firms, and corporations worldwide for accurate and certified document translation.
+              Servicios profesionales de traducción de contratos confiados por empresas internacionales, 
+              firmas legales y corporaciones mundiales para traducción precisa y certificada de documentos.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">3,200+</div>
-                <div className="text-gray-600">Contract Translations Completed</div>
+                <div className="text-gray-600">Traducciones de Contratos Completadas</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">98%</div>
-                <div className="text-gray-600">Client Satisfaction Rate</div>
+                <div className="text-gray-600">Tasa de Satisfacción del Cliente</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">24hr</div>
-                <div className="text-gray-600">Average Delivery Time</div>
+                <div className="text-gray-600">Tiempo Promedio de Entrega</div>
               </div>
             </div>
           </div>
