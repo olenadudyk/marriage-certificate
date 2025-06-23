@@ -5,37 +5,37 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const ContractExamples = () => {
   const examples = [
     {
-      title: "Traducción de Licencia de Conducir Estándar",
-      description: "Licencia de manejo completa con certificación total",
+      title: "Birth Certificate Translation for Immigration",
+      description: "Certified birth certificate with complete validation",
       features: [
-        "Traducción de información personal",
-        "Clase de licencia y restricciones", 
-        "Verificación de fecha de vencimiento",
-        "Endosos oficiales incluidos"
+        "Personal information translation",
+        "Official seal and stamp translation", 
+        "Registrar signature verification",
+        "Government authority endorsements included"
       ],
-      image: "🪪"
+      image: "📄"
     },
     {
-      title: "Traducción de Licencia de Conducir Comercial", 
-      description: "CDL profesional con validación completa",
+      title: "Marriage Certificate Translation for USCIS", 
+      description: "Official marriage document with full certification",
       features: [
-        "Endosos comerciales verificados",
-        "Especificaciones de clase de vehículo",
-        "Detalles de certificado médico",
-        "Certificación de endoso de materiales peligrosos"
+        "Complete ceremony details verified",
+        "Witness information translation",
+        "Official registry documentation",
+        "Government seal certification"
       ],
-      image: "🚛"
+      image: "💍"
     },
     {
-      title: "Traducción de Licencia de Conducir Internacional",
-      description: "Licencia transfronteriza para viajes globales",
+      title: "Diploma Translation for Immigration",
+      description: "Educational credential translation for visa processing",
       features: [
-        "Cumplimiento con permiso internacional",
-        "Formato de validez multinacional",
-        "Certificación de autoridad automotriz",
-        "Validación de documento de viaje"
+        "University seal and signature translation",
+        "Academic achievement verification",
+        "Educational authority certification",
+        "Degree validation documentation"
       ],
-      image: "🌍"
+      image: "🎓"
     }
   ];
 
@@ -43,10 +43,10 @@ const ContractExamples = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Traducción Profesional de Licencia de Conducir</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Professional Immigration Document Translation</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Servicios de traducción expertos para licencias de manejo aceptadas por 
-            oficinas del DMV, agencias de alquiler de autos e instituciones oficiales para viajes y propósitos legales.
+            Expert translation services for immigration documents accepted by 
+            USCIS, consulates, and official immigration authorities for visa applications and legal proceedings.
           </p>
         </div>
         
@@ -59,7 +59,7 @@ const ContractExamples = () => {
                 <p className="text-gray-600 text-sm">{example.description}</p>
               </CardHeader>
               <CardContent>
-                <h4 className="font-semibold mb-3 text-gray-900">La traducción incluye:</h4>
+                <h4 className="font-semibold mb-3 text-gray-900">The translation includes:</h4>
                 <ul className="space-y-2">
                   {example.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start text-sm text-gray-700">
@@ -75,28 +75,28 @@ const ContractExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio de Traducción de Documentos Automotrices Profesional</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Immigration Document Translation Service</h3>
             <p className="text-gray-600 mb-6">
-              Nuestros traductores certificados proporcionan traducciones precisas de licencias de conducir que cumplen 
-              con requisitos legales y estándares oficiales para viajes internacionales y necesidades automotrices.
+              Our certified translators provide precise translations of immigration documents that meet 
+              legal requirements and USCIS standards for visa applications and immigration proceedings.
             </p>
             <div className="grid md:grid-cols-2 gap-6 text-left">
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Idiomas que atendemos:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Languages we serve:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Español a Inglés</p>
-                  <p>• Portugués a Inglés</p>
-                  <p>• Francés a Inglés</p>
-                  <p>• Otros idiomas disponibles</p>
+                  <p>• Spanish to English</p>
+                  <p>• Portuguese to English</p>
+                  <p>• French to English</p>
+                  <p>• Other languages available</p>
                 </div>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Tipos de licencias:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Document types:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Licencias de conducir estándar</p>
-                  <p>• Licencias de conducir comerciales</p>
-                  <p>• Licencias de motocicleta</p>
-                  <p>• Permisos de conducir internacionales</p>
+                  <p>• Birth certificates</p>
+                  <p>• Marriage certificates</p>
+                  <p>• Educational diplomas</p>
+                  <p>• Police clearance certificates</p>
                 </div>
               </div>
             </div>

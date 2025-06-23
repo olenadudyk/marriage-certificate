@@ -9,19 +9,19 @@ const ContractTrustIndicators = () => {
           <div className="flex flex-wrap justify-center items-center gap-8 text-sm text-gray-600">
             <div className="flex items-center gap-2">
               <span className="text-yellow-500">★★★★★</span>
-              <span>4.9/5 de más de 4,500 clientes de licencias</span>
+              <span>4.9/5 from over 8,500 immigration clients</span>
             </div>
             <div className="flex items-center gap-2">
-              <span>🚗</span>
-              <span>Especialistas en Traducción de Licencias de Conducir</span>
+              <span>📋</span>
+              <span>Specialists in Immigration Document Translation</span>
             </div>
             <div className="flex items-center gap-2">
               <span>✅</span>
-              <span>100% Tasa de Aceptación Oficial</span>
+              <span>100% USCIS Acceptance Rate</span>
             </div>
             <div className="flex items-center gap-2">
               <span>🔒</span>
-              <span>Seguro y Confidencial</span>
+              <span>Secure and Confidential</span>
             </div>
           </div>
         </div>
