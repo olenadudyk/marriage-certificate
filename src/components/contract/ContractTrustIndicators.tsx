@@ -9,19 +9,19 @@ const ContractTrustIndicators = () => {
           <div className="flex flex-wrap justify-center items-center gap-8 text-sm text-gray-600">
             <div className="flex items-center gap-2">
               <span className="text-yellow-500">★★★★★</span>
-              <span>4.9/5 de más de 3,200 clientes de contratos</span>
+              <span>4.9/5 from over 4,500 license clients</span>
             </div>
             <div className="flex items-center gap-2">
-              <span>📄</span>
-              <span>Especialistas en Contratos Comerciales</span>
+              <span>🚗</span>
+              <span>Driver's License Translation Specialists</span>
             </div>
             <div className="flex items-center gap-2">
               <span>✅</span>
-              <span>100% Tasa de Aceptación Legal</span>
+              <span>100% Official Acceptance Rate</span>
             </div>
             <div className="flex items-center gap-2">
               <span>🔒</span>
-              <span>Seguro y Confidencial</span>
+              <span>Secure and Confidential</span>
             </div>
           </div>
         </div>

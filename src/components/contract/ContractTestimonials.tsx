@@ -5,24 +5,24 @@ import { Card, CardContent } from '@/components/ui/card';
 const ContractTestimonials = () => {
   const testimonials = [
     {
-      name: "María Rodríguez",
-      role: "Gerente de Negocios Internacionales",
-      company: "Global Commerce Solutions",
-      text: "La traducción del contrato fue perfecta para nuestra asociación española. Cada cláusula legal fue traducida con precisión y certificada para nuestro acuerdo internacional.",
+      name: "Maria Rodriguez",
+      role: "International Traveler",
+      company: "Vacation Rental Customer",
+      text: "Perfect driver's license translation for my Spanish license. Every detail was translated accurately and certified for my car rental in Florida. The translation was accepted immediately.",
       rating: 5
     },
     {
       name: "James Wilson",
-      role: "Asesor Legal Corporativo",
-      company: "Wilson & Associates Law",
-      text: "Excelente servicio para traducciones de contratos laborales. Rápido, preciso y legalmente conforme. Nuestros clientes confían en estas traducciones para todos los procedimientos comerciales.",
+      role: "Immigration Consultant",
+      company: "Wilson Immigration Services",
+      text: "Excellent service for driver's license translations. Fast, accurate, and legally compliant. Our clients trust these translations for all their official procedures and travel needs.",
       rating: 5
     },
     {
-      name: "Carmen Gutiérrez",
-      role: "Directora de RRHH",
-      company: "TechStart International",
-      text: "Servicio profesional de traducción de contratos. La traducción certificada cumplió con todos nuestros requisitos legales para contratación internacional. Altamente recomendado para uso comercial.",
+      name: "Carmen Gutierrez",
+      role: "Corporate Relocation Manager",
+      company: "Global Mobility Solutions",
+      text: "Professional driver's license translation service. The certified translation met all our legal requirements for employee relocation. Highly recommended for business use.",
       rating: 5
     }
   ];
@@ -31,9 +31,9 @@ const ContractTestimonials = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-6xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Lo Que Dicen Nuestros Clientes de Traducción de Contratos</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Driver's License Translation Clients Say</h2>
           <p className="text-xl text-gray-600">
-            Confiado por empresas, firmas legales y corporaciones para traducciones profesionales de contratos
+            Trusted by travelers, businesses, and individuals for professional driver's license translations
           </p>
         </div>
         
@@ -59,23 +59,23 @@ const ContractTestimonials = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Únase a Miles de Clientes Comerciales Satisfechos</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Join Thousands of Satisfied Driving Customers</h3>
             <p className="text-gray-600 mb-6">
-              Servicios profesionales de traducción de contratos confiados por empresas internacionales, 
-              firmas legales y corporaciones mundiales para traducción precisa y certificada de documentos.
+              Professional driver's license translation services trusted by international travelers, 
+              car rental agencies, and individuals worldwide for accurate and certified document translation.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
-                <div className="text-3xl font-bold text-blue-600 mb-2">3,200+</div>
-                <div className="text-gray-600">Traducciones de Contratos Completadas</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">4,500+</div>
+                <div className="text-gray-600">Driver's License Translations Completed</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">98%</div>
-                <div className="text-gray-600">Tasa de Satisfacción del Cliente</div>
+                <div className="text-gray-600">Customer Satisfaction Rate</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">24hr</div>
-                <div className="text-gray-600">Tiempo Promedio de Entrega</div>
+                <div className="text-gray-600">Average Delivery Time</div>
               </div>
             </div>
           </div>
