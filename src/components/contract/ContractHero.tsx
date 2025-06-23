@@ -9,7 +9,7 @@ const ContractHero = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-gray-900">
-            Professional Contract Translation Services
+            Professional Contract Translation
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-600 max-w-4xl mx-auto">
             Certified translation of business contracts from Spanish to English for international commerce, legal proceedings, and corporate transactions. 
@@ -22,10 +22,10 @@ const ContractHero = () => {
             <Button 
               variant="outline" 
               size="lg" 
-              className="border-gray-300 text-gray-400 bg-gray-100 px-8 py-4 text-lg cursor-not-allowed" 
+              className="border-gray-300 text-gray-700 bg-white px-8 py-4 text-lg cursor-default" 
               disabled
             >
-              View Contract Translation Sample
+              📞 (555) 123-4567
             </Button>
           </div>
         </div>
