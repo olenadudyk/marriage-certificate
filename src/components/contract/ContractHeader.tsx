@@ -28,7 +28,7 @@ const ContractHeader = () => {
             onClick={handleLogoClick}
             className="text-blue-600 border-blue-600 hover:bg-blue-50"
           >
-            Ir al Sitio Principal
+            Go to Main Site
           </Button>
         </div>
       </div>
