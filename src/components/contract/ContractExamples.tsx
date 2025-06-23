@@ -5,35 +5,35 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const ContractExamples = () => {
   const examples = [
     {
-      title: "Birth Certificate Translation for Immigration",
-      description: "Certified birth certificate with complete validation",
+      title: "Traducción de Acta de Nacimiento para Inmigración",
+      description: "Acta de nacimiento certificada con validación completa",
       features: [
-        "Personal information translation",
-        "Official seal and stamp translation", 
-        "Registrar signature verification",
-        "Government authority endorsements included"
+        "Traducción de información personal",
+        "Traducción de sello oficial y estampilla", 
+        "Verificación de firma del registrador",
+        "Endosos de autoridades gubernamentales incluidos"
       ],
       image: "📄"
     },
     {
-      title: "Marriage Certificate Translation for USCIS", 
-      description: "Official marriage document with full certification",
+      title: "Traducción de Certificado de Matrimonio para USCIS", 
+      description: "Documento oficial de matrimonio con certificación completa",
       features: [
-        "Complete ceremony details verified",
-        "Witness information translation",
-        "Official registry documentation",
-        "Government seal certification"
+        "Detalles completos de la ceremonia verificados",
+        "Traducción de información de testigos",
+        "Documentación oficial del registro",
+        "Certificación de sello gubernamental"
       ],
       image: "💍"
     },
     {
-      title: "Diploma Translation for Immigration",
-      description: "Educational credential translation for visa processing",
+      title: "Traducción de Diploma para Inmigración",
+      description: "Traducción de credencial educativa para procesamiento de visa",
       features: [
-        "University seal and signature translation",
-        "Academic achievement verification",
-        "Educational authority certification",
-        "Degree validation documentation"
+        "Traducción de sello y firma universitaria",
+        "Verificación de logros académicos",
+        "Certificación de autoridad educativa",
+        "Documentación de validación de grado"
       ],
       image: "🎓"
     }
@@ -43,10 +43,10 @@ const ContractExamples = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Professional Immigration Document Translation</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Traducción Profesional de Documentos de Inmigración</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Expert translation services for immigration documents accepted by 
-            USCIS, consulates, and official immigration authorities for visa applications and legal proceedings.
+            Servicios de traducción experta para documentos de inmigración aceptados por 
+            USCIS, consulados y autoridades oficiales de inmigración para solicitudes de visa y procedimientos legales.
           </p>
         </div>
         
@@ -59,7 +59,7 @@ const ContractExamples = () => {
                 <p className="text-gray-600 text-sm">{example.description}</p>
               </CardHeader>
               <CardContent>
-                <h4 className="font-semibold mb-3 text-gray-900">The translation includes:</h4>
+                <h4 className="font-semibold mb-3 text-gray-900">La traducción incluye:</h4>
                 <ul className="space-y-2">
                   {example.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start text-sm text-gray-700">
@@ -75,28 +75,28 @@ const ContractExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Immigration Document Translation Service</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción de Documentos de Inmigración</h3>
             <p className="text-gray-600 mb-6">
-              Our certified translators provide precise translations of immigration documents that meet 
-              legal requirements and USCIS standards for visa applications and immigration proceedings.
+              Nuestros traductores certificados proporcionan traducciones precisas de documentos de inmigración que cumplen 
+              con los requisitos legales y estándares de USCIS para solicitudes de visa y procedimientos de inmigración.
             </p>
             <div className="grid md:grid-cols-2 gap-6 text-left">
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Languages we serve:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Idiomas que servimos:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Spanish to English</p>
-                  <p>• Portuguese to English</p>
-                  <p>• French to English</p>
-                  <p>• Other languages available</p>
+                  <p>• Español a Inglés</p>
+                  <p>• Portugués a Inglés</p>
+                  <p>• Francés a Inglés</p>
+                  <p>• Otros idiomas disponibles</p>
                 </div>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Document types:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Tipos de documentos:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Birth certificates</p>
-                  <p>• Marriage certificates</p>
-                  <p>• Educational diplomas</p>
-                  <p>• Police clearance certificates</p>
+                  <p>• Actas de nacimiento</p>
+                  <p>• Certificados de matrimonio</p>
+                  <p>• Diplomas educativos</p>
+                  <p>• Certificados de antecedentes penales</p>
                 </div>
               </div>
             </div>

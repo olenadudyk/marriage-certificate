@@ -6,42 +6,42 @@ import { FileImage } from 'lucide-react';
 const ContractPdfExamples = () => {
   const pdfExamples = [
     {
-      title: "Spanish Birth Certificate - Original Document",
-      description: "Complete birth certificate from Spanish civil registry",
-      location: "Spain, Latin America",
+      title: "Acta de Nacimiento Española - Documento Original",
+      description: "Acta de nacimiento completa del registro civil español",
+      location: "España, América Latina",
       fileSize: "1.2 MB",
-      pages: "2 pages",
+      pages: "2 páginas",
       features: [
-        "Personal identification details",
-        "Parent information and signatures", 
-        "Official registry seals and dates",
-        "Government authority stamps"
+        "Detalles de identificación personal",
+        "Información y firmas de los padres", 
+        "Sellos oficiales del registro y fechas",
+        "Estampillas de autoridades gubernamentales"
       ]
     },
     {
-      title: "Certified English Translation - Official Format",
-      description: "Professional translation with certification letter",
-      location: "Ready for USCIS use",
+      title: "Traducción Certificada al Inglés - Formato Oficial",
+      description: "Traducción profesional con carta de certificación",
+      location: "Lista para uso de USCIS",
       fileSize: "1.8 MB", 
-      pages: "3 pages",
+      pages: "3 páginas",
       features: [
-        "USCIS compliant format",
-        "Translator certification",
-        "Official letterhead",
-        "Notarized certification"
+        "Formato compatible con USCIS",
+        "Certificación del traductor",
+        "Membrete oficial",
+        "Certificación notarizada"
       ]
     },
     {
-      title: "Mexican Marriage Certificate with Translation",
-      description: "Marriage certificate with certified translation",
-      location: "Mexico and other Spanish-speaking countries",
+      title: "Certificado de Matrimonio Mexicano con Traducción",
+      description: "Certificado de matrimonio con traducción certificada",
+      location: "México y otros países de habla hispana",
       fileSize: "1.5 MB",
-      pages: "2 pages", 
+      pages: "2 páginas", 
       features: [
-        "Complete marriage information",
-        "Legal compliance validation",
-        "Certified translation certificate",
-        "Official standards verification"
+        "Información completa del matrimonio",
+        "Validación de cumplimiento legal",
+        "Certificado de traducción certificada",
+        "Verificación de estándares oficiales"
       ]
     }
   ];
@@ -50,10 +50,10 @@ const ContractPdfExamples = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Immigration Document Translation Examples</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Ejemplos de Traducción de Documentos de Inmigración</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See examples of Spanish immigration documents we translate for US visa applications and official proceedings. 
-            View the quality and format of our certified immigration document translations.
+            Ve ejemplos de documentos de inmigración en español que traducimos para solicitudes de visa de EE.UU. y procedimientos oficiales. 
+            Observa la calidad y formato de nuestras traducciones certificadas de documentos de inmigración.
           </p>
         </div>
         
@@ -74,7 +74,7 @@ const ContractPdfExamples = () => {
                 </div>
               </CardHeader>
               <CardContent>
-                <h4 className="font-semibold mb-3 text-gray-900">The document includes:</h4>
+                <h4 className="font-semibold mb-3 text-gray-900">El documento incluye:</h4>
                 <ul className="space-y-2">
                   {example.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start text-sm text-gray-700">
@@ -90,23 +90,23 @@ const ContractPdfExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-white border rounded-lg p-8 max-w-4xl mx-auto shadow-sm">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Immigration Document Translation Service</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción de Documentos de Inmigración</h3>
             <p className="text-gray-600 mb-6">
-              Our immigration document translations maintain the exact legal format and validity 
-              required by USCIS, consulates, and international immigration authorities.
+              Nuestras traducciones de documentos de inmigración mantienen el formato legal exacto y la validez 
+              requerida por USCIS, consulados y autoridades internacionales de inmigración.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-2">Multiple Formats</div>
-                <div className="text-gray-600 text-sm">PDF, JPG, PNG and scanned documents</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">Múltiples Formatos</div>
+                <div className="text-gray-600 text-sm">PDF, JPG, PNG y documentos escaneados</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-2">Certified</div>
-                <div className="text-gray-600 text-sm">Translations accepted by official authorities</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">Certificado</div>
+                <div className="text-gray-600 text-sm">Traducciones aceptadas por autoridades oficiales</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-2">24 Hours</div>
-                <div className="text-gray-600 text-sm">Fast delivery guaranteed</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">24 Horas</div>
+                <div className="text-gray-600 text-sm">Entrega rápida garantizada</div>
               </div>
             </div>
           </div>

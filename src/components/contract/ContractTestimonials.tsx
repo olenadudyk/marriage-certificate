@@ -5,24 +5,24 @@ import { Card, CardContent } from '@/components/ui/card';
 const ContractTestimonials = () => {
   const testimonials = [
     {
-      name: "Maria Rodriguez",
-      role: "Visa Applicant",
-      company: "K-1 Fiancé Visa",
-      text: "Perfect translation of my Colombian birth certificate for my US visa application. Every detail was translated accurately and certified for USCIS. The translation was accepted immediately by the consulate.",
+      name: "María Rodríguez",
+      role: "Solicitante de Visa",
+      company: "Visa de Prometido(a) K-1",
+      text: "Traducción perfecta de mi acta de nacimiento colombiana para mi solicitud de visa de EE.UU. Cada detalle fue traducido con precisión y certificado para USCIS. La traducción fue aceptada inmediatamente por el consulado.",
       rating: 5
     },
     {
       name: "James Wilson",
-      role: "Immigration Attorney",
+      role: "Abogado de Inmigración",
       company: "Wilson Immigration Law",
-      text: "Excellent service for immigration document translations. Fast, accurate and USCIS compliant. Our clients trust these translations for all their immigration proceedings and visa applications.",
+      text: "Excelente servicio para traducciones de documentos de inmigración. Rápido, preciso y compatible con USCIS. Nuestros clientes confían en estas traducciones para todos sus procedimientos de inmigración y solicitudes de visa.",
       rating: 5
     },
     {
-      name: "Carmen Gutierrez",
-      role: "Corporate Immigration Manager",
+      name: "Carmen Gutiérrez",
+      role: "Gerente de Inmigración Corporativa",
       company: "Global Mobility Solutions",
-      text: "Professional immigration document translation service. The certified translations met all our legal requirements for employee visa processing. Highly recommended for corporate immigration needs.",
+      text: "Servicio profesional de traducción de documentos de inmigración. Las traducciones certificadas cumplieron con todos nuestros requisitos legales para el procesamiento de visas de empleados. Altamente recomendado para necesidades de inmigración corporativa.",
       rating: 5
     }
   ];
@@ -31,9 +31,9 @@ const ContractTestimonials = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-6xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Immigration Document Translation Clients Say</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Lo que Dicen Nuestros Clientes de Traducción de Documentos de Inmigración</h2>
           <p className="text-xl text-gray-600">
-            Trusted by visa applicants, law firms, and corporations for professional immigration document translations
+            Confiado por solicitantes de visa, bufetes de abogados y corporaciones para traducciones profesionales de documentos de inmigración
           </p>
         </div>
         
@@ -59,23 +59,23 @@ const ContractTestimonials = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Join Thousands of Satisfied Immigration Clients</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Únete a Miles de Clientes de Inmigración Satisfechos</h3>
             <p className="text-gray-600 mb-6">
-              Professional immigration document translation services trusted by visa applicants, 
-              immigration attorneys, and individuals worldwide for accurate and certified document translation.
+              Servicios profesionales de traducción de documentos de inmigración confiados por solicitantes de visa, 
+              abogados de inmigración e individuos en todo el mundo para traducción precisa y certificada de documentos.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">8,500+</div>
-                <div className="text-gray-600">Immigration Documents Translated</div>
+                <div className="text-gray-600">Documentos de Inmigración Traducidos</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">98%</div>
-                <div className="text-gray-600">Client Satisfaction Rate</div>
+                <div className="text-gray-600">Tasa de Satisfacción del Cliente</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">24hr</div>
-                <div className="text-gray-600">Average Delivery Time</div>
+                <div className="text-gray-600">Tiempo Promedio de Entrega</div>
               </div>
             </div>
           </div>
