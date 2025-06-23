@@ -7,23 +7,23 @@ const ContractPdfExamples = () => {
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center">
           <div className="bg-white border rounded-lg p-8 max-w-4xl mx-auto shadow-sm">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Bank Statement Translation Service</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Traducción Profesional de Estados de Cuenta Bancarios</h3>
             <p className="text-gray-600 mb-6">
-              Our bank statement translations maintain the exact legal format and validity 
-              required by USCIS, consulates, and international immigration authorities.
+              Nuestras traducciones de estados de cuenta mantienen el formato legal exacto y la validez 
+              requerida por USCIS, consulados y autoridades internacionales de inmigración.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-2">Multiple Formats</div>
-                <div className="text-gray-600 text-sm">PDF, JPG, PNG and scanned documents</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">Múltiples Formatos</div>
+                <div className="text-gray-600 text-sm">PDF, JPG, PNG y documentos escaneados</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-2">Certified</div>
-                <div className="text-gray-600 text-sm">Translations accepted by official authorities</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">Certificado</div>
+                <div className="text-gray-600 text-sm">Traducciones aceptadas por autoridades oficiales</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-2">24 Hours</div>
-                <div className="text-gray-600 text-sm">Fast delivery guaranteed</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">24 Horas</div>
+                <div className="text-gray-600 text-sm">Entrega rápida garantizada</div>
               </div>
             </div>
           </div>
