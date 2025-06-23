@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 
@@ -14,7 +13,7 @@ const ContractFooter = () => {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
-            <h4 className="font-semibold mb-4">English</h4>
+            <h4 className="font-semibold mb-4">Translate.com</h4>
           </div>
           
           <div>
