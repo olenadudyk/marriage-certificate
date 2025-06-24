@@ -6,24 +6,24 @@ import { FileImage } from 'lucide-react';
 const ContractPdfExamples = () => {
   const pdfExamples = [
     {
-      title: "Spanish Bank Statement - Original Document",
-      description: "Complete bank statement from Spanish financial institution",
-      location: "Spain, Latin America",
-      fileSize: "1.4 MB",
-      pages: "3 pages",
+      title: "Spanish Passport - Original Document",
+      description: "Complete passport biographical page from Spanish passport",
+      location: "Spain, Spanish territories",
+      fileSize: "1.2 MB",
+      pages: "2 pages",
       features: [
-        "Account holder identification details",
-        "Transaction history and balances", 
-        "Official bank seals and dates",
-        "Financial institution stamps"
+        "Personal identification details",
+        "Passport number and validity dates", 
+        "Official government seals",
+        "Photograph and signature verification"
       ]
     },
     {
       title: "Certified English Translation - Official Format",
       description: "Professional translation with certification letter",
       location: "Ready for USCIS use",
-      fileSize: "2.1 MB", 
-      pages: "4 pages",
+      fileSize: "1.8 MB", 
+      pages: "3 pages",
       features: [
         "USCIS-compliant format",
         "Translator certification",
@@ -32,13 +32,13 @@ const ContractPdfExamples = () => {
       ]
     },
     {
-      title: "Mexican Bank Statement with Translation",
-      description: "Bank statement with certified translation",
+      title: "Mexican Passport with Translation",
+      description: "Passport with certified translation",
       location: "Mexico and other Spanish-speaking countries",
-      fileSize: "1.7 MB",
-      pages: "3 pages", 
+      fileSize: "1.5 MB",
+      pages: "2 pages", 
       features: [
-        "Complete banking information",
+        "Complete passport information",
         "Legal compliance validation",
         "Certified translation certificate",
         "Official standards verification"
@@ -50,10 +50,10 @@ const ContractPdfExamples = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Bank Statement Translation Examples</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Passport Translation Examples</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            View examples of Spanish bank statements we translate for US visa applications and official procedures. 
-            See the quality and format of our certified bank statement translations.
+            View examples of Spanish passports we translate for US visa applications and official procedures. 
+            See the quality and format of our certified passport translations.
           </p>
         </div>
         
@@ -90,9 +90,9 @@ const ContractPdfExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-white border rounded-lg p-8 max-w-4xl mx-auto shadow-sm">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Bank Statement Translation Service</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Passport Translation Service</h3>
             <p className="text-gray-600 mb-6">
-              Our bank statement translations maintain the exact legal format and validity 
+              Our passport translations maintain the exact legal format and validity 
               required by USCIS, consulates, and international immigration authorities.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
