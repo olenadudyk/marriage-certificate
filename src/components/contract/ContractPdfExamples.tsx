@@ -6,42 +6,42 @@ import { FileImage } from 'lucide-react';
 const ContractPdfExamples = () => {
   const pdfExamples = [
     {
-      title: "Acta de Nacimiento Española - Documento Original",
-      description: "Acta de Nacimiento del Registro Civil Español",
+      title: "Acta de Defunción Española - Documento Original",
+      description: "Acta de Defunción del Registro Civil Español",
       location: "España, América Latina",
-      fileSize: "1.4 MB",
-      pages: "2 páginas",
+      fileSize: "1.2 MB",
+      pages: "1 página",
       features: [
         "Sello oficial del registro civil",
         "Firmas del registrador", 
-        "Detalles de información de padres",
-        "Registro completo de nacimiento"
+        "Detalles completos de defunción",
+        "Información de causa de muerte"
       ]
     },
     {
-      title: "Traducción Certificada al Inglés - Formato USCIS",
+      title: "Traducción Certificada al Inglés - Formato Legal",
       description: "Traducción profesional con carta de certificación",
-      location: "Lista para uso de inmigración y legal en EE.UU.",
-      fileSize: "2.1 MB", 
-      pages: "3 páginas",
+      location: "Lista para uso legal y de herencia en EE.UU.",
+      fileSize: "1.8 MB", 
+      pages: "2 páginas",
       features: [
-        "Formato compatible con USCIS",
+        "Formato compatible con tribunales",
         "Certificación del traductor",
         "Membrete oficial",
         "Certificación notarizada"
       ]
     },
     {
-      title: "Acta de Nacimiento Mexicana",
-      description: "Acta de nacimiento mexicana con validación oficial",
-      location: "Registro civil mexicano",
-      fileSize: "1.1 MB",
+      title: "Acta de Defunción Mexicana con Traducción",
+      description: "Certificado del registro civil con traducción certificada",
+      location: "México y otros países de habla hispana",
+      fileSize: "1.3 MB",
       pages: "2 páginas", 
       features: [
-        "Detalles completos de información vital",
-        "Validación del registro civil",
-        "Sellos oficiales del registro",
-        "Lugar y fecha de nacimiento certificados"
+        "Detalles completos de registro vital",
+        "Validación del registro oficial",
+        "Certificado de traducción certificada",
+        "Verificación de cumplimiento legal"
       ]
     }
   ];
@@ -50,9 +50,9 @@ const ContractPdfExamples = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Ejemplos de Documentos de Acta de Nacimiento</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Ejemplos de Documentos de Acta de Defunción</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ve ejemplos de actas de nacimiento españolas que traducimos para inmigración y propósitos legales en EE.UU. 
+            Ve ejemplos de actas de defunción españolas que traducimos para procedimientos legales y de herencia en EE.UU. 
             Observa la calidad y formato de nuestras traducciones certificadas de registros vitales.
           </p>
         </div>
@@ -90,10 +90,10 @@ const ContractPdfExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-white border rounded-lg p-8 max-w-4xl mx-auto shadow-sm">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción de Acta de Nacimiento</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción de Acta de Defunción</h3>
             <p className="text-gray-600 mb-6">
-              Nuestras traducciones de actas de nacimiento mantienen el formato exacto y validez legal 
-              requerida por USCIS e instituciones legales para procedimientos de inmigración.
+              Nuestras traducciones de actas de defunción mantienen el formato exacto y validez legal 
+              requerida por tribunales, agencias gubernamentales e instituciones legales para procedimientos de herencia y legales.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
@@ -102,7 +102,7 @@ const ContractPdfExamples = () => {
               </div>
               <div>
                 <div className="text-2xl font-bold text-blue-600 mb-2">Certificado</div>
-                <div className="text-gray-600 text-sm">Traducciones aceptadas por USCIS</div>
+                <div className="text-gray-600 text-sm">Traducciones aceptadas por tribunales</div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-blue-600 mb-2">24 Horas</div>
