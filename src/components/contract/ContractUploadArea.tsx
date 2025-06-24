@@ -12,29 +12,29 @@ const ContractUploadArea = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto max-w-4xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Sube tu Acta de Defunción para Traducción</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Upload Your Death Certificate for Translation</h2>
           <p className="text-xl text-gray-600">
-            Subida segura para traducción profesional de acta de defunción con certificación completa
+            Secure upload for professional death certificate translation with complete certification
           </p>
         </div>
         
         <Card className="shadow-xl border">
           <CardHeader>
-            <CardTitle className="text-2xl text-center text-gray-900">Servicio Profesional de Traducción de Acta de Defunción</CardTitle>
+            <CardTitle className="text-2xl text-center text-gray-900">Professional Death Certificate Translation Service</CardTitle>
           </CardHeader>
           <CardContent className="space-y-6 text-center">
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-8">
-              <h4 className="font-semibold text-blue-900 mb-4 text-xl">Tu traducción de acta de defunción incluye:</h4>
+              <h4 className="font-semibold text-blue-900 mb-4 text-xl">Your death certificate translation includes:</h4>
               <div className="grid md:grid-cols-2 gap-4 text-blue-800">
                 <div className="space-y-2">
-                  <p>✓ Traducción completa del sello</p>
-                  <p>✓ Certificación de firma del registro civil</p>
-                  <p>✓ Traducción oficial de causa de muerte</p>
+                  <p>✓ Complete seal translation</p>
+                  <p>✓ Civil registry signature certification</p>
+                  <p>✓ Official cause of death translation</p>
                 </div>
                 <div className="space-y-2">
-                  <p>✓ Certificado de traducción certificada</p>
-                  <p>✓ Entrega en 24 horas disponible</p>
-                  <p>✓ Garantía 100% de aceptación legal</p>
+                  <p>✓ Certified translation certificate</p>
+                  <p>✓ 24-hour delivery available</p>
+                  <p>✓ 100% legal acceptance guarantee</p>
                 </div>
               </div>
             </div>
@@ -43,11 +43,11 @@ const ContractUploadArea = () => {
               className="w-full bg-blue-600 hover:bg-blue-700 text-white py-6 text-xl font-semibold"
               onClick={handleRedirect}
             >
-              Obtener Cotización para Traducción de Acta de Defunción
+              Get Quote for Death Certificate Translation
             </Button>
             
             <p className="text-center text-sm text-gray-500">
-              🔒 Tus documentos vitales están encriptados de forma segura. Mantenemos estricta confidencialidad para todas las traducciones de documentos civiles.
+              🔒 Your vital documents are securely encrypted. We maintain strict confidentiality for all civil document translations.
             </p>
           </CardContent>
         </Card>

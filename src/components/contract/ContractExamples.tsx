@@ -5,35 +5,35 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const ContractExamples = () => {
   const examples = [
     {
-      title: "Traducción Completa de Acta de Defunción",
-      description: "Acta de defunción completa con certificación oficial",
+      title: "Full Death Certificate Translation",
+      description: "Complete death certificate with official certification",
       features: [
-        "Traducción completa del sello del registro civil",
-        "Firmas certificadas del registrador", 
-        "Información de causa de muerte incluida",
-        "Fecha y lugar de defunción verificados"
+        "Complete civil registry seal translation",
+        "Certified registrar signatures", 
+        "Cause of death information included",
+        "Date and place of death verified"
       ],
       image: "📋"
     },
     {
-      title: "Traducción de Acta de Defunción Forma Corta", 
-      description: "Extracto o acta de defunción forma corta con validación",
+      title: "Short Form Death Certificate Translation", 
+      description: "Abstract or short form death certificate with validation",
       features: [
-        "Detalles esenciales de defunción verificados",
-        "Información oficial del registro",
-        "Detalles del médico forense o centro médico",
-        "Certificación oficial incluida"
+        "Essential death details verified",
+        "Official registry information",
+        "Medical examiner or medical center details",
+        "Official certification included"
       ],
       image: "📄"
     },
     {
-      title: "Traducción de Acta de Defunción Internacional",
-      description: "Acta de defunción extranjera para procedimientos legales en EE.UU.",
+      title: "International Death Certificate Translation",
+      description: "Foreign death certificate for US legal proceedings",
       features: [
-        "Información vital completa",
-        "Formato específico del país reconocido",
-        "Certificación oficial",
-        "Traducción compatible con tribunales"
+        "Complete vital information",
+        "Country-specific format recognized",
+        "Official certification",
+        "Court compliant translation"
       ],
       image: "🌍"
     }
@@ -43,10 +43,10 @@ const ContractExamples = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Traducción Profesional de Acta de Defunción</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Professional Death Certificate Translation</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Servicios de traducción experta para actas de defunción aceptadas por 
-            tribunales, agencias gubernamentales e instituciones legales para asuntos de herencia y procedimientos legales.
+            Expert translation services for death certificates accepted by 
+            courts, government agencies and legal institutions for estate matters and legal proceedings.
           </p>
         </div>
         
@@ -59,7 +59,7 @@ const ContractExamples = () => {
                 <p className="text-gray-600 text-sm">{example.description}</p>
               </CardHeader>
               <CardContent>
-                <h4 className="font-semibold mb-3 text-gray-900">La traducción incluye:</h4>
+                <h4 className="font-semibold mb-3 text-gray-900">Translation includes:</h4>
                 <ul className="space-y-2">
                   {example.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start text-sm text-gray-700">
@@ -75,28 +75,28 @@ const ContractExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción de Registros Vitales</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Vital Records Translation Service</h3>
             <p className="text-gray-600 mb-6">
-              Nuestros traductores certificados proporcionan traducciones precisas de actas de defunción que cumplen 
-              con los requisitos legales y estándares de documentos para procedimientos oficiales y de herencia.
+              Our certified translators provide accurate death certificate translations that meet 
+              legal requirements and document standards for official proceedings and estate matters.
             </p>
             <div className="grid md:grid-cols-2 gap-6 text-left">
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Idiomas que servimos:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Languages we serve:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Español a Inglés</p>
-                  <p>• Portugués a Inglés</p>
-                  <p>• Francés a Inglés</p>
-                  <p>• Otros idiomas disponibles</p>
+                  <p>• Spanish to English</p>
+                  <p>• Portuguese to English</p>
+                  <p>• French to English</p>
+                  <p>• Other languages available</p>
                 </div>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Tipos de documentos:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Document types:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Actas de defunción completas</p>
-                  <p>• Actas de defunción forma corta</p>
-                  <p>• Reportes del médico forense</p>
-                  <p>• Certificados del registro civil</p>
+                  <p>• Full death certificates</p>
+                  <p>• Short form death certificates</p>
+                  <p>• Medical examiner reports</p>
+                  <p>• Civil registry certificates</p>
                 </div>
               </div>
             </div>

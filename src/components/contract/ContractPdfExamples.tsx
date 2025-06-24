@@ -6,42 +6,42 @@ import { FileImage } from 'lucide-react';
 const ContractPdfExamples = () => {
   const pdfExamples = [
     {
-      title: "Acta de Defunción Española - Documento Original",
-      description: "Acta de Defunción del Registro Civil Español",
-      location: "España, América Latina",
+      title: "Spanish Death Certificate - Original Document",
+      description: "Full death certificate from Spanish Civil Registry",
+      location: "Spain, Latin America",
       fileSize: "1.2 MB",
-      pages: "1 página",
+      pages: "1 page",
       features: [
-        "Sello oficial del registro civil",
-        "Firmas del registrador", 
-        "Detalles completos de defunción",
-        "Información de causa de muerte"
+        "Official civil registry seal",
+        "Registrar signatures", 
+        "Complete death details",
+        "Cause of death information"
       ]
     },
     {
-      title: "Traducción Certificada al Inglés - Formato Legal",
-      description: "Traducción profesional con carta de certificación",
-      location: "Lista para uso legal y de herencia en EE.UU.",
+      title: "Certified English Translation - Legal Format",
+      description: "Professional translation with certification letter",
+      location: "Ready for US legal and estate use",
       fileSize: "1.8 MB", 
-      pages: "2 páginas",
+      pages: "2 pages",
       features: [
-        "Formato compatible con tribunales",
-        "Certificación del traductor",
-        "Membrete oficial",
-        "Certificación notarizada"
+        "Court compliant format",
+        "Translator certification",
+        "Official letterhead",
+        "Notarized certification"
       ]
     },
     {
-      title: "Acta de Defunción Mexicana con Traducción",
-      description: "Certificado del registro civil con traducción certificada",
-      location: "México y otros países de habla hispana",
+      title: "Mexican Death Certificate with Translation",
+      description: "Civil registry certificate with certified translation",
+      location: "Mexico and other Spanish-speaking countries",
       fileSize: "1.3 MB",
-      pages: "2 páginas", 
+      pages: "2 pages", 
       features: [
-        "Detalles completos de registro vital",
-        "Validación del registro oficial",
-        "Certificado de traducción certificada",
-        "Verificación de cumplimiento legal"
+        "Complete vital record details",
+        "Official registry validation",
+        "Certified translation certificate",
+        "Legal compliance verification"
       ]
     }
   ];
@@ -50,10 +50,10 @@ const ContractPdfExamples = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Ejemplos de Documentos de Acta de Defunción</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Death Certificate Document Examples</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ve ejemplos de actas de defunción españolas que traducimos para procedimientos legales y de herencia en EE.UU. 
-            Observa la calidad y formato de nuestras traducciones certificadas de registros vitales.
+            See examples of Spanish death certificates we translate for US legal and estate proceedings. 
+            View the quality and format of our certified vital records translations.
           </p>
         </div>
         
@@ -74,7 +74,7 @@ const ContractPdfExamples = () => {
                 </div>
               </CardHeader>
               <CardContent>
-                <h4 className="font-semibold mb-3 text-gray-900">El documento incluye:</h4>
+                <h4 className="font-semibold mb-3 text-gray-900">The document includes:</h4>
                 <ul className="space-y-2">
                   {example.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start text-sm text-gray-700">
@@ -90,23 +90,23 @@ const ContractPdfExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-white border rounded-lg p-8 max-w-4xl mx-auto shadow-sm">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción de Acta de Defunción</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Death Certificate Translation Service</h3>
             <p className="text-gray-600 mb-6">
-              Nuestras traducciones de actas de defunción mantienen el formato exacto y validez legal 
-              requerida por tribunales, agencias gubernamentales e instituciones legales para procedimientos de herencia y legales.
+              Our death certificate translations maintain exact formatting and legal validity 
+              required by courts, government agencies and legal institutions for estate and legal proceedings.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-2">Múltiples Formatos</div>
-                <div className="text-gray-600 text-sm">PDF, JPG, PNG y documentos escaneados</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">Multiple Formats</div>
+                <div className="text-gray-600 text-sm">PDF, JPG, PNG and scanned documents</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-2">Certificado</div>
-                <div className="text-gray-600 text-sm">Traducciones aceptadas por tribunales</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">Certified</div>
+                <div className="text-gray-600 text-sm">Translations accepted by courts</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-2">24 Horas</div>
-                <div className="text-gray-600 text-sm">Entrega rápida garantizada</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">24 Hours</div>
+                <div className="text-gray-600 text-sm">Fast delivery guaranteed</div>
               </div>
             </div>
           </div>
