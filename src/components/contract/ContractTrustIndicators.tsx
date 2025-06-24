@@ -9,15 +9,15 @@ const ContractTrustIndicators = () => {
           <div className="flex flex-wrap justify-center items-center gap-8 text-sm text-gray-600">
             <div className="flex items-center gap-2">
               <span className="text-yellow-500">★★★★★</span>
-              <span>4.9/5 de más de 3,200 clientes de traducciones de documentos con apostilla</span>
+              <span>4.9/5 de más de 2,800 clientes de traducciones de diplomas</span>
             </div>
             <div className="flex items-center gap-2">
-              <span>🏆</span>
-              <span>Especialistas en Traducción de Documentos con Apostilla</span>
+              <span>🎓</span>
+              <span>Especialistas en Documentos Educativos</span>
             </div>
             <div className="flex items-center gap-2">
               <span>✅</span>
-              <span>100% Tasa de Aceptación de USCIS</span>
+              <span>100% Tasa de Aceptación Universitaria</span>
             </div>
             <div className="flex items-center gap-2">
               <span>🔒</span>

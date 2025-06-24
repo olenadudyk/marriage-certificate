@@ -5,37 +5,37 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const ContractExamples = () => {
   const examples = [
     {
-      title: "Traducción de Certificado de Nacimiento con Apostilla",
-      description: "Documento oficial de nacimiento con certificación de apostilla",
+      title: "Traducción de Título Universitario",
+      description: "Licenciatura o Maestría con certificación oficial",
       features: [
-        "Traducción completa de información de nacimiento",
-        "Traducción de sello y estampa de apostilla", 
-        "Firmas gubernamentales certificadas",
-        "Verificación oficial incluida"
-      ],
-      image: "📄"
-    },
-    {
-      title: "Traducción de Diploma Educativo con Apostilla", 
-      description: "Documento académico con validación de apostilla",
-      features: [
-        "Información académica completa verificada",
-        "Traducción de sello y firma universitaria",
-        "Autenticación de apostilla certificada",
-        "Documentación de registro educativo"
+        "Traducción completa de sello universitario",
+        "Firmas del registro certificadas", 
+        "Honores académicos y promedio incluidos",
+        "Fecha de graduación verificada"
       ],
       image: "🎓"
     },
     {
-      title: "Traducción de Certificado de Matrimonio con Apostilla",
-      description: "Documento de matrimonio con apostilla para procesamiento de inmigración",
+      title: "Traducción de Diploma Profesional", 
+      description: "Diploma técnico o profesional con validación oficial",
       features: [
-        "Traducción de detalles de matrimonio",
-        "Traducciones de sello de apostilla",
-        "Certificación gubernamental",
-        "Documentación de registro civil"
+        "Credenciales profesionales verificadas",
+        "Detalles de la institución incluidos",
+        "Áreas de especialización traducidas",
+        "Certificación oficial incluida"
       ],
-      image: "💍"
+      image: "📜"
+    },
+    {
+      title: "Traducción de Transcripción Académica",
+      description: "Expediente académico oficial para evaluación de credenciales",
+      features: [
+        "Lista completa de cursos",
+        "Calificaciones y horas de crédito",
+        "Certificación oficial",
+        "Detalles de acreditación institucional"
+      ],
+      image: "📊"
     }
   ];
 
@@ -43,10 +43,10 @@ const ContractExamples = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Traducción Profesional de Documentos con Apostilla</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Traducción Profesional de Diplomas</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Servicios de traducción expertos para documentos apostillados aceptados por 
-            USCIS, consulados y autoridades oficiales de inmigración para solicitudes de visa y procedimientos legales.
+            Servicios de traducción expertos para diplomas aceptados por 
+            universidades estadounidenses, empleadores y USCIS para propósitos de inmigración y educación.
           </p>
         </div>
         
@@ -75,10 +75,10 @@ const ContractExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción de Documentos con Apostilla</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción Educativa</h3>
             <p className="text-gray-600 mb-6">
-              Nuestros traductores certificados proporcionan traducciones precisas de documentos con apostilla que cumplen 
-              con los requisitos legales y estándares de USCIS para solicitudes de visa y procedimientos de inmigración.
+              Nuestros traductores certificados proporcionan traducciones precisas de diplomas que cumplen 
+              con los requisitos de admisión universitaria y estándares de verificación de empleadores.
             </p>
             <div className="grid md:grid-cols-2 gap-6 text-left">
               <div>
@@ -93,11 +93,10 @@ const ContractExamples = () => {
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Tipos de documentos:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Certificados de nacimiento con apostilla</p>
-                  <p>• Diplomas educativos con apostilla</p>
-                  <p>• Certificados de matrimonio con apostilla</p>
-                  <p>• Documentos legales con apostilla</p>
-                  <p>• Traducciones de sellos de apostilla</p>
+                  <p>• Títulos universitarios</p>
+                  <p>• Diplomas técnicos</p>
+                  <p>• Transcripciones académicas</p>
+                  <p>• Certificados profesionales</p>
                 </div>
               </div>
             </div>

@@ -6,23 +6,23 @@ import { FileImage } from 'lucide-react';
 const ContractPdfExamples = () => {
   const pdfExamples = [
     {
-      title: "Certificado de Nacimiento Español con Apostilla - Documento Original",
-      description: "Certificado de nacimiento completo con apostilla del registro civil español",
-      location: "España, territorios españoles",
-      fileSize: "1.1 MB",
+      title: "Título Universitario Español - Documento Original",
+      description: "Licenciatura de Universidad Española",
+      location: "España, América Latina",
+      fileSize: "1.4 MB",
       pages: "2 páginas",
       features: [
-        "Detalles de nacimiento",
-        "Sello y certificación de apostilla", 
-        "Sellos oficiales del gobierno",
-        "Firmas oficiales y del registrador"
+        "Sello oficial de la universidad",
+        "Firmas del registrador", 
+        "Notación de honores académicos",
+        "Detalles completos de graduación"
       ]
     },
     {
-      title: "Traducción Certificada al Inglés - Formato Oficial",
-      description: "Traducción profesional de documento con apostilla con carta de certificación",
-      location: "Lista para uso de USCIS",
-      fileSize: "1.7 MB", 
+      title: "Traducción Certificada al Inglés - Formato USCIS",
+      description: "Traducción profesional con carta de certificación",
+      location: "Lista para inmigración y empleo en EE.UU.",
+      fileSize: "2.1 MB", 
       pages: "3 páginas",
       features: [
         "Formato compatible con USCIS",
@@ -32,16 +32,16 @@ const ContractPdfExamples = () => {
       ]
     },
     {
-      title: "Traducción de Diploma Mexicano con Apostilla",
-      description: "Diploma educativo con apostilla y traducción certificada",
-      location: "México y otros países de habla hispana",
-      fileSize: "1.4 MB",
+      title: "Diploma Profesional en Español",
+      description: "Certificado Técnico o Profesional con validación",
+      location: "Regiones de habla hispana",
+      fileSize: "1.1 MB",
       pages: "2 páginas", 
       features: [
-        "Información académica completa",
-        "Traducción de autenticación de apostilla",
-        "Certificado de traducción certificada",
-        "Validación educativa"
+        "Detalles de especialización profesional",
+        "Información de acreditación institucional",
+        "Validación de registro oficial",
+        "Sellos institucionales oficiales"
       ]
     }
   ];
@@ -50,10 +50,10 @@ const ContractPdfExamples = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Ejemplos de Traducción de Documentos con Apostilla</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Ejemplos de Documentos de Diplomas</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Vea ejemplos de documentos españoles apostillados que traducimos para solicitudes de visa estadounidenses y procedimientos oficiales. 
-            Observe la calidad y formato de nuestras traducciones certificadas de documentos con apostilla.
+            Vea ejemplos de diplomas españoles que traducimos para inmigración y empleo en EE.UU. 
+            Observe la calidad y formato de nuestras traducciones certificadas de documentos educativos.
           </p>
         </div>
         
@@ -90,10 +90,10 @@ const ContractPdfExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-white border rounded-lg p-8 max-w-4xl mx-auto shadow-sm">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción de Documentos con Apostilla</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción de Diplomas</h3>
             <p className="text-gray-600 mb-6">
-              Nuestras traducciones de documentos con apostilla mantienen el formato legal exacto y la validez 
-              requerida por USCIS, consulados y autoridades internacionales de inmigración.
+              Nuestras traducciones de diplomas mantienen el formato exacto y validez académica 
+              requerida por universidades estadounidenses y empleadores para evaluación de credenciales.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
@@ -102,7 +102,7 @@ const ContractPdfExamples = () => {
               </div>
               <div>
                 <div className="text-2xl font-bold text-blue-600 mb-2">Certificado</div>
-                <div className="text-gray-600 text-sm">Traducciones aceptadas por autoridades oficiales</div>
+                <div className="text-gray-600 text-sm">Traducciones aceptadas por universidades</div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-blue-600 mb-2">24 Horas</div>
