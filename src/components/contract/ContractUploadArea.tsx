@@ -12,24 +12,24 @@ const ContractUploadArea = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto max-w-4xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Sube Tu Pasaporte para Traducción</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Sube Tu Acta de Matrimonio para Traducción</h2>
           <p className="text-xl text-gray-600">
-            Subida segura para traducción profesional de pasaportes con certificación completa de USCIS
+            Subida segura para traducción profesional de actas matrimoniales con certificación completa de USCIS
           </p>
         </div>
         
         <Card className="shadow-xl border">
           <CardHeader>
-            <CardTitle className="text-2xl text-center text-gray-900">Servicio Profesional de Traducción de Pasaportes</CardTitle>
+            <CardTitle className="text-2xl text-center text-gray-900">Servicio Profesional de Traducción de Actas de Matrimonio</CardTitle>
           </CardHeader>
           <CardContent className="space-y-6 text-center">
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-8">
-              <h4 className="font-semibold text-blue-900 mb-4 text-xl">Tu traducción de pasaporte incluye:</h4>
+              <h4 className="font-semibold text-blue-900 mb-4 text-xl">Tu traducción de acta matrimonial incluye:</h4>
               <div className="grid md:grid-cols-2 gap-4 text-blue-800">
                 <div className="space-y-2">
-                  <p>✓ Traducción completa de página biográfica</p>
-                  <p>✓ Traducción de sellos y sellos oficiales</p>
-                  <p>✓ Verificación de número de pasaporte y fechas</p>
+                  <p>✓ Traducción completa de información matrimonial</p>
+                  <p>✓ Traducción de sellos y firmas oficiales</p>
+                  <p>✓ Verificación de fechas y lugares</p>
                 </div>
                 <div className="space-y-2">
                   <p>✓ Certificado de traducción certificada</p>
@@ -43,11 +43,11 @@ const ContractUploadArea = () => {
               className="w-full bg-blue-600 hover:bg-blue-700 text-white py-6 text-xl font-semibold"
               onClick={handleRedirect}
             >
-              Obtener Cotización para Traducción de Pasaporte
+              Obtener Cotización para Traducción de Acta de Matrimonio
             </Button>
             
             <p className="text-center text-sm text-gray-500">
-              🔒 Tus documentos de pasaporte están encriptados de forma segura. Mantenemos estricta confidencialidad para todas las traducciones de pasaportes.
+              🔒 Tus documentos matrimoniales están encriptados de forma segura. Mantenemos estricta confidencialidad para todas las traducciones de actas de matrimonio.
             </p>
           </CardContent>
         </Card>

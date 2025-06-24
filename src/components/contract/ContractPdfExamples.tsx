@@ -6,23 +6,23 @@ import { FileImage } from 'lucide-react';
 const ContractPdfExamples = () => {
   const pdfExamples = [
     {
-      title: "Pasaporte Español - Documento Original",
-      description: "Página biográfica completa del pasaporte español",
+      title: "Acta de Matrimonio Española - Documento Original",
+      description: "Acta matrimonial completa del registro civil español",
       location: "España, territorios españoles",
-      fileSize: "1.2 MB",
+      fileSize: "1.1 MB",
       pages: "2 páginas",
       features: [
-        "Detalles de identificación personal",
-        "Número de pasaporte y fechas de validez", 
+        "Detalles de los cónyuges",
+        "Fecha y lugar de matrimonio", 
         "Sellos oficiales del gobierno",
-        "Verificación de fotografía y firma"
+        "Firmas de oficiales y testigos"
       ]
     },
     {
       title: "Traducción Certificada al Inglés - Formato Oficial",
       description: "Traducción profesional con carta de certificación",
       location: "Listo para uso de USCIS",
-      fileSize: "1.8 MB", 
+      fileSize: "1.7 MB", 
       pages: "3 páginas",
       features: [
         "Formato conforme a USCIS",
@@ -32,13 +32,13 @@ const ContractPdfExamples = () => {
       ]
     },
     {
-      title: "Pasaporte Mexicano con Traducción",
-      description: "Pasaporte con traducción certificada",
+      title: "Acta de Matrimonio Mexicana con Traducción",
+      description: "Acta matrimonial con traducción certificada",
       location: "México y otros países de habla hispana",
-      fileSize: "1.5 MB",
+      fileSize: "1.4 MB",
       pages: "2 páginas", 
       features: [
-        "Información completa del pasaporte",
+        "Información matrimonial completa",
         "Validación de cumplimiento legal",
         "Certificado de traducción certificada",
         "Verificación de estándares oficiales"
@@ -50,10 +50,10 @@ const ContractPdfExamples = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Ejemplos de Traducción de Pasaportes</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Ejemplos de Traducción de Actas de Matrimonio</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ve ejemplos de pasaportes españoles que traducimos para solicitudes de visa estadounidense y procedimientos oficiales. 
-            Observa la calidad y formato de nuestras traducciones certificadas de pasaportes.
+            Ve ejemplos de actas de matrimonio españolas que traducimos para solicitudes de visa estadounidense y procedimientos oficiales. 
+            Observa la calidad y formato de nuestras traducciones certificadas de documentos matrimoniales.
           </p>
         </div>
         
@@ -90,9 +90,9 @@ const ContractPdfExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-white border rounded-lg p-8 max-w-4xl mx-auto shadow-sm">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción de Pasaportes</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción de Actas de Matrimonio</h3>
             <p className="text-gray-600 mb-6">
-              Nuestras traducciones de pasaportes mantienen el formato legal exacto y la validez 
+              Nuestras traducciones de actas matrimoniales mantienen el formato legal exacto y la validez 
               requerida por USCIS, consulados y autoridades internacionales de inmigración.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">

@@ -5,24 +5,24 @@ import { Card, CardContent } from '@/components/ui/card';
 const ContractTestimonials = () => {
   const testimonials = [
     {
-      name: "Carlos Méndez",
-      role: "Solicitante de Visa",
-      company: "Solicitud de Visa Turística",
-      text: "Excelente traducción de mi pasaporte español para mi solicitud de visa estadounidense. Cada detalle fue traducido con precisión y certificado para USCIS. La traducción fue aceptada inmediatamente por el consulado.",
+      name: "María González",
+      role: "Solicitante de Visa de Esposa",
+      company: "Solicitud de Visa K-1",
+      text: "Excelente traducción de mi acta de matrimonio española para mi solicitud de visa de esposa estadounidense. Cada detalle fue traducido con precisión y certificado para USCIS. La traducción fue aceptada inmediatamente por inmigración.",
       rating: 5
     },
     {
-      name: "Sarah Williams",
-      role: "Abogada de Inmigración",
-      company: "Williams Immigration Law",
-      text: "Servicio excepcional para traducciones de pasaportes. Rápido, preciso y conforme a USCIS. Nuestros clientes confían en estas traducciones para todos sus procedimientos de inmigración y solicitudes de visa.",
+      name: "Roberto Martínez",
+      role: "Abogado de Inmigración",
+      company: "Martínez Immigration Law",
+      text: "Servicio excepcional para traducciones de actas matrimoniales. Rápido, preciso y conforme a USCIS. Nuestros clientes confían en estas traducciones para todos sus procedimientos de inmigración familiar.",
       rating: 5
     },
     {
-      name: "Miguel Torres",
-      role: "Gerente de Inmigración Corporativa",
-      company: "International Business Solutions",
-      text: "Servicio profesional de traducción de pasaportes. Las traducciones certificadas cumplieron con todos nuestros requisitos legales para el procesamiento de visas de empleados. Altamente recomendado para necesidades de inmigración corporativa.",
+      name: "Carmen Silva",
+      role: "Consultora de Inmigración",
+      company: "Family Immigration Services",
+      text: "Servicio profesional de traducción de actas de matrimonio. Las traducciones certificadas cumplieron con todos nuestros requisitos legales para el procesamiento de visas familiares. Altamente recomendado para casos matrimoniales.",
       rating: 5
     }
   ];
@@ -31,9 +31,9 @@ const ContractTestimonials = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-6xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Lo Que Dicen Nuestros Clientes de Traducción de Pasaportes</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Lo Que Dicen Nuestros Clientes de Traducción de Actas de Matrimonio</h2>
           <p className="text-xl text-gray-600">
-            Confianza de solicitantes de visa, bufetes de abogados y corporaciones para traducciones profesionales de pasaportes
+            Confianza de parejas, bufetes de abogados y consultores para traducciones profesionales de documentos matrimoniales
           </p>
         </div>
         
@@ -59,15 +59,15 @@ const ContractTestimonials = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Únete a Miles de Clientes Satisfechos de Traducción de Pasaportes</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Únete a Miles de Clientes Satisfechos de Traducción de Actas de Matrimonio</h3>
             <p className="text-gray-600 mb-6">
-              Servicios profesionales de traducción de pasaportes confiados por solicitantes de visa, 
-              abogados de inmigración e individuos en todo el mundo para traducción precisa y certificada de documentos.
+              Servicios profesionales de traducción de actas matrimoniales confiados por parejas, 
+              abogados de inmigración familiar e individuos en todo el mundo para traducción precisa y certificada de documentos.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
-                <div className="text-3xl font-bold text-blue-600 mb-2">8,500+</div>
-                <div className="text-gray-600">Pasaportes Traducidos</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">5,200+</div>
+                <div className="text-gray-600">Actas de Matrimonio Traducidas</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">99%</div>

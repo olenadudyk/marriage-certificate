@@ -5,37 +5,37 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const ContractExamples = () => {
   const examples = [
     {
-      title: "Traducción de Pasaporte Español",
-      description: "Página biográfica completa del pasaporte con certificación",
+      title: "Traducción de Acta de Matrimonio Civil",
+      description: "Documento matrimonial oficial con certificación completa",
       features: [
-        "Traducción de información personal",
-        "Número de pasaporte y fechas", 
-        "Verificación de autoridad emisora",
-        "Sellos y sellos oficiales incluidos"
+        "Traducción de información de los cónyuges",
+        "Fecha y lugar de matrimonio", 
+        "Verificación de sellos gubernamentales",
+        "Firmas de oficiales y testigos incluidas"
       ],
-      image: "📘"
+      image: "📄"
     },
     {
-      title: "Traducción de Pasaporte Mexicano", 
-      description: "Documento oficial de pasaporte con certificación completa",
+      title: "Traducción de Acta Matrimonial Religiosa", 
+      description: "Documento eclesiástico con validación civil",
       features: [
-        "Datos biográficos completos verificados",
-        "Páginas de fotografía y firma",
-        "Certificación de sello gubernamental",
-        "Documentación de autoridad oficial"
+        "Datos matrimoniales completos verificados",
+        "Certificación de autoridad religiosa",
+        "Sellos y firmas de la iglesia",
+        "Registro civil incluido"
       ],
-      image: "🇲🇽"
+      image: "⛪"
     },
     {
-      title: "Traducción de Pasaporte Colombiano",
-      description: "Traducción de pasaporte para procesamiento de inmigración",
+      title: "Traducción de Certificado de Matrimonio",
+      description: "Traducción de acta para procesamiento de inmigración",
       features: [
-        "Traducción de detalles de página de identidad",
-        "Traducciones de sellos de entrada/salida",
-        "Certificación gubernamental oficial",
-        "Documentación de autoridad de inmigración"
+        "Traducción de detalles matrimoniales",
+        "Traducciones de sellos oficiales",
+        "Certificación gubernamental",
+        "Documentación de registro civil"
       ],
-      image: "🇨🇴"
+      image: "💍"
     }
   ];
 
@@ -43,9 +43,9 @@ const ContractExamples = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Servicios Profesionales de Traducción de Pasaportes</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Servicios Profesionales de Traducción de Actas de Matrimonio</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Servicios de traducción experta para pasaportes aceptados por 
+            Servicios de traducción experta para actas de matrimonio aceptados por 
             USCIS, consulados y autoridades oficiales de inmigración para solicitudes de visa y procedimientos legales.
           </p>
         </div>
@@ -75,9 +75,9 @@ const ContractExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción de Pasaportes</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción de Actas de Matrimonio</h3>
             <p className="text-gray-600 mb-6">
-              Nuestros traductores certificados proporcionan traducciones precisas de pasaportes que cumplen 
+              Nuestros traductores certificados proporcionan traducciones precisas de actas matrimoniales que cumplen 
               con los requisitos legales y estándares de USCIS para solicitudes de visa y procedimientos de inmigración.
             </p>
             <div className="grid md:grid-cols-2 gap-6 text-left">
@@ -93,11 +93,11 @@ const ContractExamples = () => {
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Tipos de documentos:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Páginas biográficas de pasaporte</p>
-                  <p>• Páginas de visa y sellos</p>
-                  <p>• Documentos de viaje de emergencia</p>
-                  <p>• Páginas de renovación de pasaporte</p>
-                  <p>• Traducción de sellos de pasaporte</p>
+                  <p>• Actas de matrimonio civil</p>
+                  <p>• Certificados matrimoniales religiosos</p>
+                  <p>• Documentos de registro matrimonial</p>
+                  <p>• Actas matrimoniales apostilladas</p>
+                  <p>• Traducción de sellos matrimoniales</p>
                 </div>
               </div>
             </div>
