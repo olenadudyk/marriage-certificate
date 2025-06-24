@@ -5,24 +5,24 @@ import { Card, CardContent } from '@/components/ui/card';
 const ContractTestimonials = () => {
   const testimonials = [
     {
-      name: "María González",
-      role: "Solicitante de Visa de Esposa",
-      company: "Solicitud de Visa K-1",
-      text: "Excelente traducción de mi acta de matrimonio española para mi solicitud de visa de esposa estadounidense. Cada detalle fue traducido con precisión y certificado para USCIS. La traducción fue aceptada inmediatamente por inmigración.",
+      name: "Maria González",
+      role: "Spouse Visa Applicant",
+      company: "K-1 Visa Application",
+      text: "Excellent translation of my Spanish marriage certificate for my US spouse visa application. Every detail was accurately translated and certified for USCIS. The translation was immediately accepted by immigration.",
       rating: 5
     },
     {
       name: "Roberto Martínez",
-      role: "Abogado de Inmigración",
+      role: "Immigration Attorney",
       company: "Martínez Immigration Law",
-      text: "Servicio excepcional para traducciones de actas matrimoniales. Rápido, preciso y conforme a USCIS. Nuestros clientes confían en estas traducciones para todos sus procedimientos de inmigración familiar.",
+      text: "Exceptional service for marriage certificate translations. Fast, accurate and USCIS compliant. Our clients trust these translations for all their family immigration procedures.",
       rating: 5
     },
     {
       name: "Carmen Silva",
-      role: "Consultora de Inmigración",
+      role: "Immigration Consultant",
       company: "Family Immigration Services",
-      text: "Servicio profesional de traducción de actas de matrimonio. Las traducciones certificadas cumplieron con todos nuestros requisitos legales para el procesamiento de visas familiares. Altamente recomendado para casos matrimoniales.",
+      text: "Professional marriage certificate translation service. The certified translations met all our legal requirements for family visa processing. Highly recommended for marriage cases.",
       rating: 5
     }
   ];
@@ -31,9 +31,9 @@ const ContractTestimonials = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-6xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Lo Que Dicen Nuestros Clientes de Traducción de Actas de Matrimonio</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Marriage Certificate Translation Customers Say</h2>
           <p className="text-xl text-gray-600">
-            Confianza de parejas, bufetes de abogados y consultores para traducciones profesionales de documentos matrimoniales
+            Trusted by couples, law firms and consultants for professional marriage document translations
           </p>
         </div>
         
@@ -59,23 +59,23 @@ const ContractTestimonials = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Únete a Miles de Clientes Satisfechos de Traducción de Actas de Matrimonio</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Join Thousands of Satisfied Marriage Certificate Translation Customers</h3>
             <p className="text-gray-600 mb-6">
-              Servicios profesionales de traducción de actas matrimoniales confiados por parejas, 
-              abogados de inmigración familiar e individuos en todo el mundo para traducción precisa y certificada de documentos.
+              Professional marriage certificate translation services trusted by couples, 
+              family immigration attorneys and individuals worldwide for accurate and certified document translation.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">5,200+</div>
-                <div className="text-gray-600">Actas de Matrimonio Traducidas</div>
+                <div className="text-gray-600">Marriage Certificates Translated</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">99%</div>
-                <div className="text-gray-600">Tasa de Satisfacción del Cliente</div>
+                <div className="text-gray-600">Customer Satisfaction Rate</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">24h</div>
-                <div className="text-gray-600">Tiempo Promedio de Entrega</div>
+                <div className="text-gray-600">Average Delivery Time</div>
               </div>
             </div>
           </div>

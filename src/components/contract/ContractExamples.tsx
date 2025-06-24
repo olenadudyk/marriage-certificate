@@ -5,35 +5,35 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const ContractExamples = () => {
   const examples = [
     {
-      title: "Traducción de Acta de Matrimonio Civil",
-      description: "Documento matrimonial oficial con certificación completa",
+      title: "Civil Marriage Certificate Translation",
+      description: "Official marriage document with complete certification",
       features: [
-        "Traducción de información de los cónyuges",
-        "Fecha y lugar de matrimonio", 
-        "Verificación de sellos gubernamentales",
-        "Firmas de oficiales y testigos incluidas"
+        "Spouse information translation",
+        "Marriage date and location", 
+        "Government seal verification",
+        "Official and witness signatures included"
       ],
       image: "📄"
     },
     {
-      title: "Traducción de Acta Matrimonial Religiosa", 
-      description: "Documento eclesiástico con validación civil",
+      title: "Religious Marriage Certificate Translation", 
+      description: "Ecclesiastical document with civil validation",
       features: [
-        "Datos matrimoniales completos verificados",
-        "Certificación de autoridad religiosa",
-        "Sellos y firmas de la iglesia",
-        "Registro civil incluido"
+        "Complete verified marriage data",
+        "Religious authority certification",
+        "Church seals and signatures",
+        "Civil registry included"
       ],
       image: "⛪"
     },
     {
-      title: "Traducción de Certificado de Matrimonio",
-      description: "Traducción de acta para procesamiento de inmigración",
+      title: "Marriage Certificate Translation",
+      description: "Marriage certificate translation for immigration processing",
       features: [
-        "Traducción de detalles matrimoniales",
-        "Traducciones de sellos oficiales",
-        "Certificación gubernamental",
-        "Documentación de registro civil"
+        "Marriage details translation",
+        "Official seal translations",
+        "Government certification",
+        "Civil registry documentation"
       ],
       image: "💍"
     }
@@ -43,10 +43,10 @@ const ContractExamples = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Servicios Profesionales de Traducción de Actas de Matrimonio</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Professional Marriage Certificate Translation Services</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Servicios de traducción experta para actas de matrimonio aceptados por 
-            USCIS, consulados y autoridades oficiales de inmigración para solicitudes de visa y procedimientos legales.
+            Expert translation services for marriage certificates accepted by 
+            USCIS, consulates and official immigration authorities for visa applications and legal procedures.
           </p>
         </div>
         
@@ -59,7 +59,7 @@ const ContractExamples = () => {
                 <p className="text-gray-600 text-sm">{example.description}</p>
               </CardHeader>
               <CardContent>
-                <h4 className="font-semibold mb-3 text-gray-900">La traducción incluye:</h4>
+                <h4 className="font-semibold mb-3 text-gray-900">Translation includes:</h4>
                 <ul className="space-y-2">
                   {example.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start text-sm text-gray-700">
@@ -75,29 +75,29 @@ const ContractExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción de Actas de Matrimonio</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Marriage Certificate Translation Service</h3>
             <p className="text-gray-600 mb-6">
-              Nuestros traductores certificados proporcionan traducciones precisas de actas matrimoniales que cumplen 
-              con los requisitos legales y estándares de USCIS para solicitudes de visa y procedimientos de inmigración.
+              Our certified translators provide accurate marriage certificate translations that meet 
+              legal requirements and USCIS standards for visa applications and immigration procedures.
             </p>
             <div className="grid md:grid-cols-2 gap-6 text-left">
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Idiomas que servimos:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Languages we serve:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Español al inglés</p>
-                  <p>• Portugués al inglés</p>
-                  <p>• Francés al inglés</p>
-                  <p>• Otros idiomas disponibles</p>
+                  <p>• Spanish to English</p>
+                  <p>• Portuguese to English</p>
+                  <p>• French to English</p>
+                  <p>• Other languages available</p>
                 </div>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Tipos de documentos:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Document types:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Actas de matrimonio civil</p>
-                  <p>• Certificados matrimoniales religiosos</p>
-                  <p>• Documentos de registro matrimonial</p>
-                  <p>• Actas matrimoniales apostilladas</p>
-                  <p>• Traducción de sellos matrimoniales</p>
+                  <p>• Civil marriage certificates</p>
+                  <p>• Religious marriage certificates</p>
+                  <p>• Marriage registry documents</p>
+                  <p>• Apostilled marriage certificates</p>
+                  <p>• Marriage seal translations</p>
                 </div>
               </div>
             </div>
