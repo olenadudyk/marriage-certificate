@@ -5,24 +5,24 @@ import { Card, CardContent } from '@/components/ui/card';
 const ContractTestimonials = () => {
   const testimonials = [
     {
-      name: "Sofia Martinez",
+      name: "Maria Rodriguez",
       role: "Immigration Applicant",
       company: "Green Card Application",
-      text: "Excellent translation of my Colombian engineering degree for my US immigration application. They translated every academic detail including grades, honors and the official seal. My university accepted it immediately for my Master's program.",
+      text: "Perfect translation of my Mexican birth certificate. They translated every detail including the civil registry seal and parent information. USCIS accepted it immediately for my citizenship application.",
       rating: 5
     },
     {
-      name: "Diego Rodriguez",
-      role: "Business Professional",
-      company: "Tech Company USA",
-      text: "Outstanding service for my Spanish business diploma translation. They perfectly understood all the academic terminology and authentication details. The fast delivery helped me meet my job application deadline.",
+      name: "Carlos Mendez",
+      role: "Visa Applicant",
+      company: "Student Visa USA",
+      text: "Excellent birth certificate translation service for my Colombian document. They understood all the civil registry terminology and certification details perfectly. Fast delivery helped me meet my visa deadline.",
       rating: 5
     },
     {
-      name: "Carmen Gonzalez",
-      role: "Doctor",
-      company: "Hospital Certification",
-      text: "Outstanding service for my Mexican medical degree. They translated the entire document including specialized medical terms and certification with perfect accuracy. USCIS accepted it without question for my medical certification process.",
+      name: "Ana Gutierrez",
+      role: "Legal Proceeding",
+      company: "Family Court Case",
+      text: "Outstanding service for my Spanish birth certificate. They translated the entire document including specialized legal terms and official seals with perfect accuracy. Immigration office accepted it without questions.",
       rating: 5
     }
   ];
@@ -31,9 +31,9 @@ const ContractTestimonials = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-6xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Diploma Translation Clients Say</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Birth Certificate Translation Clients Say</h2>
           <p className="text-xl text-gray-600">
-            Trusted by thousands for professional diploma and educational document translations
+            Trusted by thousands for professional birth certificate and vital records translations
           </p>
         </div>
         
@@ -59,19 +59,19 @@ const ContractTestimonials = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Join Thousands of Satisfied Diploma Translation Clients</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Join Thousands of Satisfied Birth Certificate Translation Clients</h3>
             <p className="text-gray-600 mb-6">
-              Professional diploma translation services trusted by individuals, 
-              students and professionals worldwide for accurate and certified educational document translation.
+              Professional birth certificate translation services trusted by individuals, 
+              families and legal professionals worldwide for accurate and certified vital records translation.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
-                <div className="text-3xl font-bold text-blue-600 mb-2">8,500+</div>
-                <div className="text-gray-600">Diplomas Translated</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">12,000+</div>
+                <div className="text-gray-600">Birth Certificates Translated</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">100%</div>
-                <div className="text-gray-600">University Acceptance Rate</div>
+                <div className="text-gray-600">USCIS Acceptance Rate</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">24h</div>
