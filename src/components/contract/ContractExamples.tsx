@@ -5,35 +5,35 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const ContractExamples = () => {
   const examples = [
     {
-      title: "Traducción de Título Universitario",
-      description: "Licenciatura o Maestría con certificación oficial",
+      title: "University Degree Translation",
+      description: "Bachelor's or Master's degree with official certification",
       features: [
-        "Traducción completa de sello universitario",
-        "Firmas del registro certificadas", 
-        "Honores académicos y promedio incluidos",
-        "Fecha de graduación verificada"
+        "Complete university seal translation",
+        "Certified registrar signatures", 
+        "Academic honors and GPA included",
+        "Verified graduation date"
       ],
       image: "🎓"
     },
     {
-      title: "Traducción de Diploma Profesional", 
-      description: "Diploma técnico o profesional con validación oficial",
+      title: "Professional Diploma Translation", 
+      description: "Technical or professional diploma with official validation",
       features: [
-        "Credenciales profesionales verificadas",
-        "Detalles de la institución incluidos",
-        "Áreas de especialización traducidas",
-        "Certificación oficial incluida"
+        "Verified professional credentials",
+        "Institution details included",
+        "Specialization areas translated",
+        "Official certification included"
       ],
       image: "📜"
     },
     {
-      title: "Traducción de Transcripción Académica",
-      description: "Expediente académico oficial para evaluación de credenciales",
+      title: "Academic Transcript Translation",
+      description: "Official academic record for credential evaluation",
       features: [
-        "Lista completa de cursos",
-        "Calificaciones y horas de crédito",
-        "Certificación oficial",
-        "Detalles de acreditación institucional"
+        "Complete course listing",
+        "Grades and credit hours",
+        "Official certification",
+        "Institutional accreditation details"
       ],
       image: "📊"
     }
@@ -43,10 +43,10 @@ const ContractExamples = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Traducción Profesional de Diplomas</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Professional Diploma Translation</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Servicios de traducción expertos para diplomas aceptados por 
-            universidades estadounidenses, empleadores y USCIS para propósitos de inmigración y educación.
+            Expert translation services for diplomas accepted by 
+            US universities, employers and USCIS for immigration and educational purposes.
           </p>
         </div>
         
@@ -59,7 +59,7 @@ const ContractExamples = () => {
                 <p className="text-gray-600 text-sm">{example.description}</p>
               </CardHeader>
               <CardContent>
-                <h4 className="font-semibold mb-3 text-gray-900">La traducción incluye:</h4>
+                <h4 className="font-semibold mb-3 text-gray-900">Translation includes:</h4>
                 <ul className="space-y-2">
                   {example.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start text-sm text-gray-700">
@@ -75,28 +75,28 @@ const ContractExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción Educativa</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Educational Translation Service</h3>
             <p className="text-gray-600 mb-6">
-              Nuestros traductores certificados proporcionan traducciones precisas de diplomas que cumplen 
-              con los requisitos de admisión universitaria y estándares de verificación de empleadores.
+              Our certified translators provide accurate diploma translations that meet 
+              university admission requirements and employer verification standards.
             </p>
             <div className="grid md:grid-cols-2 gap-6 text-left">
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Idiomas que atendemos:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Languages we serve:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Español a Inglés</p>
-                  <p>• Portugués a Inglés</p>
-                  <p>• Francés a Inglés</p>
-                  <p>• Otros idiomas disponibles</p>
+                  <p>• Spanish to English</p>
+                  <p>• Portuguese to English</p>
+                  <p>• French to English</p>
+                  <p>• Other languages available</p>
                 </div>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Tipos de documentos:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Document types:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Títulos universitarios</p>
-                  <p>• Diplomas técnicos</p>
-                  <p>• Transcripciones académicas</p>
-                  <p>• Certificados profesionales</p>
+                  <p>• University degrees</p>
+                  <p>• Technical diplomas</p>
+                  <p>• Academic transcripts</p>
+                  <p>• Professional certificates</p>
                 </div>
               </div>
             </div>

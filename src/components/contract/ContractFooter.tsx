@@ -8,7 +8,7 @@ const ContractFooter = () => {
       <div className="container mx-auto max-w-6xl px-4">
         <div className="mb-8 text-center">
           <p className="text-gray-300 mb-4">
-            Horarios de soporte: 7 AM a 4 PM (UTC 0), Lun-Vie.
+            Support hours: 7 AM to 4 PM (UTC 0), Mon-Fri.
           </p>
         </div>
         
@@ -18,56 +18,56 @@ const ContractFooter = () => {
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Para Clientes</h4>
+            <h4 className="font-semibold mb-4">For Customers</h4>
             <ul className="space-y-2 text-gray-300 text-sm">
-              <li><a href="#" className="hover:text-white">Servicios de Translate.com</a></li>
-              <li><a href="#" className="hover:text-white">Traducir Documento en Línea</a></li>
-              <li><a href="#" className="hover:text-white">Traducción Empresarial</a></li>
-              <li><a href="#" className="hover:text-white">Traducción Médica</a></li>
-              <li><a href="#" className="hover:text-white">Traducción Técnica</a></li>
-              <li><a href="#" className="hover:text-white">Traducción de Email</a></li>
-              <li><a href="#" className="hover:text-white">Corrección de Pruebas</a></li>
+              <li><a href="#" className="hover:text-white">Translate.com Services</a></li>
+              <li><a href="#" className="hover:text-white">Translate Document Online</a></li>
+              <li><a href="#" className="hover:text-white">Business Translation</a></li>
+              <li><a href="#" className="hover:text-white">Medical Translation</a></li>
+              <li><a href="#" className="hover:text-white">Technical Translation</a></li>
+              <li><a href="#" className="hover:text-white">Email Translation</a></li>
+              <li><a href="#" className="hover:text-white">Proofreading</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Para Empresas</h4>
+            <h4 className="font-semibold mb-4">For Businesses</h4>
             <ul className="space-y-2 text-gray-300 text-sm">
-              <li><a href="#" className="hover:text-white">API de Translate.com</a></li>
-              <li><a href="#" className="hover:text-white">Documentación de API</a></li>
-              <li><a href="#" className="hover:text-white">Integración Zendesk</a></li>
-              <li><a href="#" className="hover:text-white">Integración Zapier</a></li>
-              <li><a href="#" className="hover:text-white">Todas las Integraciones</a></li>
-              <li><a href="#" className="hover:text-white">Traducir JSON</a></li>
+              <li><a href="#" className="hover:text-white">Translate.com API</a></li>
+              <li><a href="#" className="hover:text-white">API Documentation</a></li>
+              <li><a href="#" className="hover:text-white">Zendesk Integration</a></li>
+              <li><a href="#" className="hover:text-white">Zapier Integration</a></li>
+              <li><a href="#" className="hover:text-white">All Integrations</a></li>
+              <li><a href="#" className="hover:text-white">Translate JSON</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Recursos</h4>
+            <h4 className="font-semibold mb-4">Resources</h4>
             <ul className="space-y-2 text-gray-300 text-sm">
-              <li><a href="#" className="hover:text-white">Traducción Automática</a></li>
-              <li><a href="#" className="hover:text-white">Diccionarios</a></li>
-              <li><a href="#" className="hover:text-white">Pares de Idiomas</a></li>
-              <li><a href="#" className="hover:text-white"><span className="bg-red-600 text-white px-1 py-0.5 rounded text-xs mr-1">¡NUEVO!</span>Inglés-Francés</a></li>
+              <li><a href="#" className="hover:text-white">Machine Translation</a></li>
+              <li><a href="#" className="hover:text-white">Dictionaries</a></li>
+              <li><a href="#" className="hover:text-white">Language Pairs</a></li>
+              <li><a href="#" className="hover:text-white"><span className="bg-red-600 text-white px-1 py-0.5 rounded text-xs mr-1">NEW!</span>English-French</a></li>
             </ul>
             <div className="mt-6">
-              <h4 className="font-semibold mb-4">Empresa</h4>
+              <h4 className="font-semibold mb-4">Company</h4>
               <ul className="space-y-2 text-gray-300 text-sm">
-                <li><a href="#" className="hover:text-white">Acerca de Nosotros</a></li>
-                <li><a href="#" className="hover:text-white">Contáctanos</a></li>
-                <li><a href="#" className="hover:text-white">Términos de Servicio</a></li>
-                <li><a href="#" className="hover:text-white">Centro de Ayuda</a></li>
+                <li><a href="#" className="hover:text-white">About Us</a></li>
+                <li><a href="#" className="hover:text-white">Contact Us</a></li>
+                <li><a href="#" className="hover:text-white">Terms of Service</a></li>
+                <li><a href="#" className="hover:text-white">Help Center</a></li>
               </ul>
             </div>
             <div className="mt-6">
-              <h4 className="font-semibold mb-4">Para Traductores</h4>
+              <h4 className="font-semibold mb-4">For Translators</h4>
             </div>
           </div>
         </div>
         
         <div className="border-t border-gray-700 pt-6">
           <div className="text-center text-sm text-gray-400">
-            Copyright ©2011-2025 Translate LLC. Todos los derechos reservados.
+            Copyright ©2011-2025 Translate LLC. All rights reserved.
           </div>
         </div>
       </div>

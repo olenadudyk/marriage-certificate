@@ -6,23 +6,23 @@ const ContractTestimonials = () => {
   const testimonials = [
     {
       name: "Sofia Martinez",
-      role: "Solicitante de Inmigración",
-      company: "Solicitud de Tarjeta Verde",
-      text: "Excelente traducción de mi título de ingeniería colombiano para mi solicitud de inmigración estadounidense. Tradujeron cada detalle académico incluyendo calificaciones, honores y el sello oficial. Mi universidad lo aceptó inmediatamente para mi programa de Maestría.",
+      role: "Immigration Applicant",
+      company: "Green Card Application",
+      text: "Excellent translation of my Colombian engineering degree for my US immigration application. They translated every academic detail including grades, honors and the official seal. My university accepted it immediately for my Master's program.",
       rating: 5
     },
     {
       name: "Diego Rodriguez",
-      role: "Profesional de Negocios",
+      role: "Business Professional",
       company: "Tech Company USA",
-      text: "Servicio excepcional para traducción de mi diploma de negocios español. Entendieron perfectamente toda la terminología académica y detalles de autenticación. La entrega rápida me ayudó a cumplir con mi fecha límite de solicitud de trabajo.",
+      text: "Outstanding service for my Spanish business diploma translation. They perfectly understood all the academic terminology and authentication details. The fast delivery helped me meet my job application deadline.",
       rating: 5
     },
     {
       name: "Carmen Gonzalez",
-      role: "Doctora",
+      role: "Doctor",
       company: "Hospital Certification",
-      text: "Servicio sobresaliente para mi título médico mexicano. Tradujeron todo el documento incluyendo términos médicos especializados y certificación con perfecta precisión. USCIS lo aceptó sin preguntas para mi proceso de certificación médica.",
+      text: "Outstanding service for my Mexican medical degree. They translated the entire document including specialized medical terms and certification with perfect accuracy. USCIS accepted it without question for my medical certification process.",
       rating: 5
     }
   ];
@@ -31,9 +31,9 @@ const ContractTestimonials = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-6xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Lo Que Dicen Nuestros Clientes de Traducción de Diplomas</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Diploma Translation Clients Say</h2>
           <p className="text-xl text-gray-600">
-            Confiado por miles de personas para traducciones profesionales de diplomas y documentos educativos
+            Trusted by thousands for professional diploma and educational document translations
           </p>
         </div>
         
@@ -59,23 +59,23 @@ const ContractTestimonials = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Únase a Miles de Clientes Satisfechos de Traducción de Diplomas</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Join Thousands of Satisfied Diploma Translation Clients</h3>
             <p className="text-gray-600 mb-6">
-              Servicios profesionales de traducción de diplomas confiados por individuos, 
-              estudiantes y profesionales en todo el mundo para traducción precisa y certificada de documentos educativos.
+              Professional diploma translation services trusted by individuals, 
+              students and professionals worldwide for accurate and certified educational document translation.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">8,500+</div>
-                <div className="text-gray-600">Diplomas Traducidos</div>
+                <div className="text-gray-600">Diplomas Translated</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">100%</div>
-                <div className="text-gray-600">Tasa de Aceptación Universitaria</div>
+                <div className="text-gray-600">University Acceptance Rate</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">24h</div>
-                <div className="text-gray-600">Tiempo Promedio de Entrega</div>
+                <div className="text-gray-600">Average Delivery Time</div>
               </div>
             </div>
           </div>
