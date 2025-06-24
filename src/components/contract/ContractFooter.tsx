@@ -8,7 +8,7 @@ const ContractFooter = () => {
       <div className="container mx-auto max-w-6xl px-4">
         <div className="mb-8 text-center">
           <p className="text-gray-300 mb-4">
-            Business hours: 7 AM to 4 PM (UTC 0), Mon-Fri.
+            Support hours: 7 AM to 4 PM (UTC 0), Mon-Fri.
           </p>
         </div>
         
@@ -26,12 +26,12 @@ const ContractFooter = () => {
               <li><a href="#" className="hover:text-white">Medical Translation</a></li>
               <li><a href="#" className="hover:text-white">Technical Translation</a></li>
               <li><a href="#" className="hover:text-white">Email Translation</a></li>
-              <li><a href="#" className="hover:text-white">Text Proofreading</a></li>
+              <li><a href="#" className="hover:text-white">Proofreading</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">For Businesses</h4>
+            <h4 className="font-semibold mb-4">For Business</h4>
             <ul className="space-y-2 text-gray-300 text-sm">
               <li><a href="#" className="hover:text-white">Translate.com API</a></li>
               <li><a href="#" className="hover:text-white">API Documentation</a></li>

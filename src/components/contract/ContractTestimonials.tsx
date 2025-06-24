@@ -5,24 +5,24 @@ import { Card, CardContent } from '@/components/ui/card';
 const ContractTestimonials = () => {
   const testimonials = [
     {
-      name: "Maria Rodriguez",
+      name: "María González",
       role: "Visa Applicant",
       company: "K-1 Fiancé Visa",
-      text: "Perfect translation of my Colombian passport for my US visa application. Every stamp and visa page was translated with precision and certified for USCIS. The translation was immediately accepted by the consulate.",
+      text: "Perfect translation of my Colombian bank statements for my US visa application. Every transaction detail was translated accurately and certified for USCIS. The translation was accepted immediately by the consulate.",
       rating: 5
     },
     {
-      name: "David Chen",
+      name: "Robert Johnson",
       role: "Immigration Attorney",
-      company: "Chen Immigration Law",
-      text: "Excellent service for passport translations. Fast, accurate and USCIS compliant. Our clients trust these translations for all their immigration procedures and visa applications.",
+      company: "Johnson Immigration Law",
+      text: "Excellent service for bank statement translations. Fast, accurate, and USCIS-compliant. Our clients trust these translations for all their immigration procedures and visa applications.",
       rating: 5
     },
     {
-      name: "Ana Gutierrez",
+      name: "Ana Martínez",
       role: "Corporate Immigration Manager",
-      company: "Global Tech Solutions",
-      text: "Professional passport translation service. The certified translations met all our legal requirements for employee visa processing. Highly recommended for corporate immigration needs.",
+      company: "Global Financial Solutions",
+      text: "Professional bank statement translation service. The certified translations met all our legal requirements for employee visa processing. Highly recommended for corporate immigration needs.",
       rating: 5
     }
   ];
@@ -31,9 +31,9 @@ const ContractTestimonials = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-6xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Passport Translation Clients Say</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Bank Statement Translation Clients Say</h2>
           <p className="text-xl text-gray-600">
-            Trusted by visa applicants, law firms and corporations for professional passport translations
+            Trusted by visa applicants, law firms, and corporations for professional bank statement translations
           </p>
         </div>
         
@@ -59,15 +59,15 @@ const ContractTestimonials = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Join Thousands of Satisfied Passport Translation Clients</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Join Thousands of Satisfied Bank Statement Translation Clients</h3>
             <p className="text-gray-600 mb-6">
-              Professional passport translations trusted by visa applicants, 
-              immigration attorneys and individuals worldwide for accurate and certified document translation.
+              Professional bank statement translation services trusted by visa applicants, 
+              immigration attorneys, and individuals worldwide for accurate and certified document translation.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
-                <div className="text-3xl font-bold text-blue-600 mb-2">8,500+</div>
-                <div className="text-gray-600">Passports Translated</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">6,200+</div>
+                <div className="text-gray-600">Bank Statements Translated</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">99%</div>

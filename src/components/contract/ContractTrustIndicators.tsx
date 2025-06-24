@@ -9,11 +9,11 @@ const ContractTrustIndicators = () => {
           <div className="flex flex-wrap justify-center items-center gap-8 text-sm text-gray-600">
             <div className="flex items-center gap-2">
               <span className="text-yellow-500">★★★★★</span>
-              <span>4.9/5 from over 8,500 passport translation clients</span>
+              <span>4.9/5 from over 6,200 financial document clients</span>
             </div>
             <div className="flex items-center gap-2">
-              <span>🛂</span>
-              <span>Passport Translation Specialists</span>
+              <span>🏦</span>
+              <span>Bank Statement Translation Specialists</span>
             </div>
             <div className="flex items-center gap-2">
               <span>✅</span>
