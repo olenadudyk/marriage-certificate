@@ -9,7 +9,7 @@ const ContractHero = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-gray-900">
-            Marriage Certificate Translation Services
+            Marriage Certificate Translation
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-600 max-w-4xl mx-auto">
             Certified marriage certificate translation from Spanish to English for USCIS, immigration, visa applications and official purposes. 
