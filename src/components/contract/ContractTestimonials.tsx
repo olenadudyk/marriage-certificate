@@ -5,24 +5,24 @@ import { Card, CardContent } from '@/components/ui/card';
 const ContractTestimonials = () => {
   const testimonials = [
     {
-      name: "Maria Rodriguez",
-      role: "Immigration Applicant",
-      company: "Green Card Application",
-      text: "Perfect translation of my Mexican birth certificate. They translated every detail including the civil registry seal and parent information. USCIS accepted it immediately for my citizenship application.",
+      name: "María Rodríguez",
+      role: "Solicitante de Inmigración",
+      company: "Solicitud de Tarjeta Verde",
+      text: "Traducción perfecta de mi acta de nacimiento mexicana. Tradujeron cada detalle incluyendo el sello del registro civil e información de padres. USCIS la aceptó inmediatamente para mi solicitud de ciudadanía.",
       rating: 5
     },
     {
-      name: "Carlos Mendez",
-      role: "Visa Applicant",
-      company: "Student Visa USA",
-      text: "Excellent birth certificate translation service for my Colombian document. They understood all the civil registry terminology and certification details perfectly. Fast delivery helped me meet my visa deadline.",
+      name: "Carlos Méndez",
+      role: "Solicitante de Visa",
+      company: "Visa de Estudiante EE.UU.",
+      text: "Excelente servicio de traducción de acta de nacimiento para mi documento colombiano. Entendieron perfectamente toda la terminología del registro civil y detalles de certificación. La entrega rápida me ayudó a cumplir con mi fecha límite de visa.",
       rating: 5
     },
     {
-      name: "Ana Gutierrez",
-      role: "Legal Proceeding",
-      company: "Family Court Case",
-      text: "Outstanding service for my Spanish birth certificate. They translated the entire document including specialized legal terms and official seals with perfect accuracy. Immigration office accepted it without questions.",
+      name: "Ana Gutiérrez",
+      role: "Procedimiento Legal",
+      company: "Caso de Corte Familiar",
+      text: "Servicio excepcional para mi acta de nacimiento española. Tradujeron todo el documento incluyendo términos legales especializados y sellos oficiales con perfecta precisión. La oficina de inmigración la aceptó sin preguntas.",
       rating: 5
     }
   ];
@@ -31,9 +31,9 @@ const ContractTestimonials = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-6xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Birth Certificate Translation Clients Say</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Lo que Dicen Nuestros Clientes de Traducción de Acta de Nacimiento</h2>
           <p className="text-xl text-gray-600">
-            Trusted by thousands for professional birth certificate and vital records translations
+            Confiado por miles para traducciones profesionales de actas de nacimiento y registros vitales
           </p>
         </div>
         
@@ -59,23 +59,23 @@ const ContractTestimonials = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Join Thousands of Satisfied Birth Certificate Translation Clients</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Únete a Miles de Clientes Satisfechos de Traducción de Acta de Nacimiento</h3>
             <p className="text-gray-600 mb-6">
-              Professional birth certificate translation services trusted by individuals, 
-              families and legal professionals worldwide for accurate and certified vital records translation.
+              Servicios profesionales de traducción de actas de nacimiento confiados por individuos, 
+              familias y profesionales legales en todo el mundo para traducción precisa y certificada de registros vitales.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">12,000+</div>
-                <div className="text-gray-600">Birth Certificates Translated</div>
+                <div className="text-gray-600">Actas de Nacimiento Traducidas</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">100%</div>
-                <div className="text-gray-600">USCIS Acceptance Rate</div>
+                <div className="text-gray-600">Tasa de Aceptación USCIS</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">24h</div>
-                <div className="text-gray-600">Average Delivery Time</div>
+                <div className="text-gray-600">Tiempo Promedio de Entrega</div>
               </div>
             </div>
           </div>

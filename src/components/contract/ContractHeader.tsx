@@ -19,7 +19,7 @@ const ContractHeader = () => {
               T
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">Translate.com</h1>
+              <h1 className="text-xl font-bold text-gray-900">Traduce.com</h1>
             </div>
           </div>
           
@@ -28,7 +28,7 @@ const ContractHeader = () => {
             onClick={handleLogoClick}
             className="text-blue-600 border-blue-600 hover:bg-blue-50"
           >
-            Go to Home Page
+            Ir a Página Principal
           </Button>
         </div>
       </div>

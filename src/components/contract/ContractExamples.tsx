@@ -5,35 +5,35 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const ContractExamples = () => {
   const examples = [
     {
-      title: "Full Birth Certificate Translation",
-      description: "Complete birth certificate with official certification",
+      title: "Traducción Completa de Acta de Nacimiento",
+      description: "Acta de nacimiento completa con certificación oficial",
       features: [
-        "Complete civil registry seal translation",
-        "Certified registrar signatures", 
-        "Parent information included",
-        "Verified birth date and location"
+        "Traducción completa del sello del registro civil",
+        "Firmas certificadas del registrador", 
+        "Información de padres incluida",
+        "Fecha y lugar de nacimiento verificados"
       ],
       image: "📋"
     },
     {
-      title: "Short Form Birth Certificate Translation", 
-      description: "Abstract or short form birth certificate with validation",
+      title: "Traducción de Acta de Nacimiento Forma Corta", 
+      description: "Extracto o acta de nacimiento forma corta con validación",
       features: [
-        "Verified essential birth details",
-        "Official registry information",
-        "Hospital or birth facility details",
-        "Official certification included"
+        "Detalles esenciales de nacimiento verificados",
+        "Información oficial del registro",
+        "Detalles del hospital o centro de nacimiento",
+        "Certificación oficial incluida"
       ],
       image: "📄"
     },
     {
-      title: "International Birth Certificate Translation",
-      description: "Foreign birth certificate for US legal proceedings",
+      title: "Traducción de Acta de Nacimiento Internacional",
+      description: "Acta de nacimiento extranjera para procedimientos legales en EE.UU.",
       features: [
-        "Complete vital information",
-        "Country-specific format recognized",
-        "Official certification",
-        "USCIS compliant translation"
+        "Información vital completa",
+        "Formato específico del país reconocido",
+        "Certificación oficial",
+        "Traducción compatible con USCIS"
       ],
       image: "🌍"
     }
@@ -43,10 +43,10 @@ const ContractExamples = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Professional Birth Certificate Translation</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Traducción Profesional de Acta de Nacimiento</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Expert translation services for birth certificates accepted by 
-            USCIS, courts, government agencies and legal institutions for immigration and citizenship purposes.
+            Servicios de traducción experta para actas de nacimiento aceptadas por 
+            USCIS, tribunales, agencias gubernamentales e instituciones legales para propósitos de inmigración y ciudadanía.
           </p>
         </div>
         
@@ -59,7 +59,7 @@ const ContractExamples = () => {
                 <p className="text-gray-600 text-sm">{example.description}</p>
               </CardHeader>
               <CardContent>
-                <h4 className="font-semibold mb-3 text-gray-900">Translation includes:</h4>
+                <h4 className="font-semibold mb-3 text-gray-900">La traducción incluye:</h4>
                 <ul className="space-y-2">
                   {example.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start text-sm text-gray-700">
@@ -75,28 +75,28 @@ const ContractExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Vital Records Translation Service</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción de Registros Vitales</h3>
             <p className="text-gray-600 mb-6">
-              Our certified translators provide accurate birth certificate translations that meet 
-              immigration requirements and legal document standards for official proceedings.
+              Nuestros traductores certificados proporcionan traducciones precisas de actas de nacimiento que cumplen 
+              con los requisitos de inmigración y estándares de documentos legales para procedimientos oficiales.
             </p>
             <div className="grid md:grid-cols-2 gap-6 text-left">
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Languages we serve:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Idiomas que servimos:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Spanish to English</p>
-                  <p>• Portuguese to English</p>
-                  <p>• French to English</p>
-                  <p>• Other languages available</p>
+                  <p>• Español a Inglés</p>
+                  <p>• Portugués a Inglés</p>
+                  <p>• Francés a Inglés</p>
+                  <p>• Otros idiomas disponibles</p>
                 </div>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Document types:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Tipos de documentos:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Full birth certificates</p>
-                  <p>• Short form birth certificates</p>
-                  <p>• Hospital birth records</p>
-                  <p>• Civil registry certificates</p>
+                  <p>• Actas de nacimiento completas</p>
+                  <p>• Actas de nacimiento forma corta</p>
+                  <p>• Registros hospitalarios de nacimiento</p>
+                  <p>• Certificados del registro civil</p>
                 </div>
               </div>
             </div>
