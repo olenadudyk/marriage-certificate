@@ -5,35 +5,35 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const ContractExamples = () => {
   const examples = [
     {
-      title: "Spanish Passport Translation",
-      description: "Complete passport biographical page with certification",
+      title: "Traducción de Pasaporte Español",
+      description: "Página biográfica completa del pasaporte con certificación",
       features: [
-        "Personal information translation",
-        "Passport number and dates", 
-        "Issuing authority verification",
-        "Official stamps and seals included"
+        "Traducción de información personal",
+        "Número de pasaporte y fechas", 
+        "Verificación de autoridad emisora",
+        "Sellos y sellos oficiales incluidos"
       ],
       image: "📘"
     },
     {
-      title: "Mexican Passport Translation", 
-      description: "Official passport document with full certification",
+      title: "Traducción de Pasaporte Mexicano", 
+      description: "Documento oficial de pasaporte con certificación completa",
       features: [
-        "Complete biographical data verified",
-        "Photograph and signature pages",
-        "Government seal certification",
-        "Official authority documentation"
+        "Datos biográficos completos verificados",
+        "Páginas de fotografía y firma",
+        "Certificación de sello gubernamental",
+        "Documentación de autoridad oficial"
       ],
       image: "🇲🇽"
     },
     {
-      title: "Colombian Passport Translation",
-      description: "Passport translation for immigration processing",
+      title: "Traducción de Pasaporte Colombiano",
+      description: "Traducción de pasaporte para procesamiento de inmigración",
       features: [
-        "Identity page details translation",
-        "Entry/exit stamp translations",
-        "Official government certification",
-        "Immigration authority documentation"
+        "Traducción de detalles de página de identidad",
+        "Traducciones de sellos de entrada/salida",
+        "Certificación gubernamental oficial",
+        "Documentación de autoridad de inmigración"
       ],
       image: "🇨🇴"
     }
@@ -43,10 +43,10 @@ const ContractExamples = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Professional Passport Translation Services</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Servicios Profesionales de Traducción de Pasaportes</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Expert translation services for passports accepted by 
-            USCIS, consulates, and official immigration authorities for visa applications and legal procedures.
+            Servicios de traducción experta para pasaportes aceptados por 
+            USCIS, consulados y autoridades oficiales de inmigración para solicitudes de visa y procedimientos legales.
           </p>
         </div>
         
@@ -59,7 +59,7 @@ const ContractExamples = () => {
                 <p className="text-gray-600 text-sm">{example.description}</p>
               </CardHeader>
               <CardContent>
-                <h4 className="font-semibold mb-3 text-gray-900">Translation includes:</h4>
+                <h4 className="font-semibold mb-3 text-gray-900">La traducción incluye:</h4>
                 <ul className="space-y-2">
                   {example.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start text-sm text-gray-700">
@@ -75,29 +75,29 @@ const ContractExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Passport Translation Service</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción de Pasaportes</h3>
             <p className="text-gray-600 mb-6">
-              Our certified translators provide accurate passport translations that meet 
-              legal requirements and USCIS standards for visa applications and immigration procedures.
+              Nuestros traductores certificados proporcionan traducciones precisas de pasaportes que cumplen 
+              con los requisitos legales y estándares de USCIS para solicitudes de visa y procedimientos de inmigración.
             </p>
             <div className="grid md:grid-cols-2 gap-6 text-left">
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Languages we serve:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Idiomas que servimos:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Spanish to English</p>
-                  <p>• Portuguese to English</p>
-                  <p>• French to English</p>
-                  <p>• Other languages available</p>
+                  <p>• Español al inglés</p>
+                  <p>• Portugués al inglés</p>
+                  <p>• Francés al inglés</p>
+                  <p>• Otros idiomas disponibles</p>
                 </div>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Document types:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Tipos de documentos:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Biographical passport pages</p>
-                  <p>• Visa and stamp pages</p>
-                  <p>• Emergency travel documents</p>
-                  <p>• Passport renewal pages</p>
-                  <p>• Passport stamps translation</p>
+                  <p>• Páginas biográficas de pasaporte</p>
+                  <p>• Páginas de visa y sellos</p>
+                  <p>• Documentos de viaje de emergencia</p>
+                  <p>• Páginas de renovación de pasaporte</p>
+                  <p>• Traducción de sellos de pasaporte</p>
                 </div>
               </div>
             </div>
