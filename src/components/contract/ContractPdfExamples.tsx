@@ -6,22 +6,22 @@ import { FileImage } from 'lucide-react';
 const ContractPdfExamples = () => {
   const pdfExamples = [
     {
-      title: "Spanish University Degree - Original Document",
-      description: "Bachelor's Degree from Spanish University",
+      title: "Spanish Birth Certificate - Original Document",
+      description: "Birth Certificate from Spanish Civil Registry",
       location: "Spain, Latin America",
       fileSize: "1.4 MB",
       pages: "2 pages",
       features: [
-        "Official university seal",
+        "Official civil registry seal",
         "Registrar signatures", 
-        "Academic honors notation",
-        "Complete graduation details"
+        "Parent information details",
+        "Complete birth registration"
       ]
     },
     {
       title: "Certified English Translation - USCIS Format",
       description: "Professional translation with certification letter",
-      location: "Ready for US immigration and employment",
+      location: "Ready for US immigration and legal use",
       fileSize: "2.1 MB", 
       pages: "3 pages",
       features: [
@@ -32,16 +32,16 @@ const ContractPdfExamples = () => {
       ]
     },
     {
-      title: "Spanish Professional Diploma",
-      description: "Technical or Professional Certificate with validation",
-      location: "Spanish-speaking regions",
+      title: "Mexican Birth Certificate",
+      description: "Mexican birth certificate with official validation",
+      location: "Mexico civil registry",
       fileSize: "1.1 MB",
       pages: "2 pages", 
       features: [
-        "Professional specialization details",
-        "Institutional accreditation information",
-        "Official registry validation",
-        "Official institutional seals"
+        "Complete vital information details",
+        "Civil registry validation",
+        "Official registry seals",
+        "Birth location and date certified"
       ]
     }
   ];
@@ -50,10 +50,10 @@ const ContractPdfExamples = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Diploma Document Examples</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Birth Certificate Document Examples</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See examples of Spanish diplomas we translate for US immigration and employment. 
-            Observe the quality and format of our certified educational document translations.
+            See examples of Spanish birth certificates we translate for US immigration and legal purposes. 
+            Observe the quality and format of our certified vital records translations.
           </p>
         </div>
         
@@ -90,10 +90,10 @@ const ContractPdfExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-white border rounded-lg p-8 max-w-4xl mx-auto shadow-sm">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Diploma Translation Service</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Birth Certificate Translation Service</h3>
             <p className="text-gray-600 mb-6">
-              Our diploma translations maintain the exact format and academic validity 
-              required by US universities and employers for credential evaluation.
+              Our birth certificate translations maintain the exact format and legal validity 
+              required by USCIS and legal institutions for immigration proceedings.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
@@ -102,7 +102,7 @@ const ContractPdfExamples = () => {
               </div>
               <div>
                 <div className="text-2xl font-bold text-blue-600 mb-2">Certified</div>
-                <div className="text-gray-600 text-sm">University-accepted translations</div>
+                <div className="text-gray-600 text-sm">USCIS-accepted translations</div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-blue-600 mb-2">24 Hours</div>
