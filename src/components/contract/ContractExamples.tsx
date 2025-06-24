@@ -97,6 +97,7 @@ const ContractExamples = () => {
                   <p>• Visa and stamp pages</p>
                   <p>• Emergency travel documents</p>
                   <p>• Passport renewal pages</p>
+                  <p>• Passport stamps translation</p>
                 </div>
               </div>
             </div>
