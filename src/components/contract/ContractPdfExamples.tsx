@@ -6,21 +6,21 @@ import { FileImage } from 'lucide-react';
 const ContractPdfExamples = () => {
   const pdfExamples = [
     {
-      title: "Spanish Marriage Certificate - Original Document",
-      description: "Complete marriage certificate from Spanish civil registry",
+      title: "Spanish Birth Certificate with Apostille - Original Document",
+      description: "Complete birth certificate with apostille from Spanish civil registry",
       location: "Spain, Spanish territories",
       fileSize: "1.1 MB",
       pages: "2 pages",
       features: [
-        "Spouse details",
-        "Marriage date and location", 
+        "Birth details",
+        "Apostille seal and certification", 
         "Official government seals",
-        "Official and witness signatures"
+        "Official and registrar signatures"
       ]
     },
     {
       title: "Certified English Translation - Official Format",
-      description: "Professional translation with certification letter",
+      description: "Professional apostille document translation with certification letter",
       location: "Ready for USCIS use",
       fileSize: "1.7 MB", 
       pages: "3 pages",
@@ -32,16 +32,16 @@ const ContractPdfExamples = () => {
       ]
     },
     {
-      title: "Mexican Marriage Certificate with Translation",
-      description: "Marriage certificate with certified translation",
+      title: "Mexican Diploma with Apostille Translation",
+      description: "Educational diploma with apostille and certified translation",
       location: "Mexico and other Spanish-speaking countries",
       fileSize: "1.4 MB",
       pages: "2 pages", 
       features: [
-        "Complete marriage information",
-        "Legal compliance validation",
+        "Complete academic information",
+        "Apostille authentication translation",
         "Certified translation certificate",
-        "Official standard verification"
+        "Educational validation"
       ]
     }
   ];
@@ -50,10 +50,10 @@ const ContractPdfExamples = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Marriage Certificate Translation Examples</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Apostille Document Translation Examples</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See examples of Spanish marriage certificates we translate for US visa applications and official procedures. 
-            Observe the quality and format of our certified marriage document translations.
+            See examples of Spanish apostilled documents we translate for US visa applications and official procedures. 
+            Observe the quality and format of our certified apostille document translations.
           </p>
         </div>
         
@@ -90,9 +90,9 @@ const ContractPdfExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-white border rounded-lg p-8 max-w-4xl mx-auto shadow-sm">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Marriage Certificate Translation Service</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Apostille Document Translation Service</h3>
             <p className="text-gray-600 mb-6">
-              Our marriage certificate translations maintain the exact legal format and validity 
+              Our apostille document translations maintain the exact legal format and validity 
               required by USCIS, consulates and international immigration authorities.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
