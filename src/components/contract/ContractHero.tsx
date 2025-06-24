@@ -9,7 +9,7 @@ const ContractHero = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-gray-900">
-            Professional Birth Certificate Translation Services
+            Birth Certificate Translation
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-600 max-w-4xl mx-auto">
             Certified translation of birth certificates from Spanish to English for US immigration, citizenship applications, and legal purposes. 
