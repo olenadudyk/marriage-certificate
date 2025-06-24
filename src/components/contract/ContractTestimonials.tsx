@@ -6,23 +6,23 @@ const ContractTestimonials = () => {
   const testimonials = [
     {
       name: "Sarah Johnson",
-      role: "Immigration Applicant",
-      company: "Green Card Application",
-      text: "Excellent translation of my Colombian birth certificate with apostille for my US immigration application. Every detail was accurately translated and certified for USCIS. The translation was immediately accepted by immigration.",
+      role: "Solicitante de Inmigración",
+      company: "Solicitud de Tarjeta Verde",
+      text: "Excelente traducción de mi certificado de nacimiento colombiano con apostilla para mi solicitud de inmigración estadounidense. Cada detalle fue traducido con precisión y certificado para USCIS. La traducción fue inmediatamente aceptada por inmigración.",
       rating: 5
     },
     {
       name: "Roberto Martínez",
-      role: "Immigration Attorney",
+      role: "Abogado de Inmigración",
       company: "Martínez Immigration Law",
-      text: "Exceptional service for apostille document translations. Fast, accurate and USCIS compliant. Our clients trust these translations for all their immigration procedures.",
+      text: "Servicio excepcional para traducciones de documentos con apostilla. Rápido, preciso y compatible con USCIS. Nuestros clientes confían en estas traducciones para todos sus procedimientos de inmigración.",
       rating: 5
     },
     {
       name: "Carmen Silva",
-      role: "Immigration Consultant",
+      role: "Consultora de Inmigración",
       company: "International Document Services",
-      text: "Professional apostille document translation service. The certified translations met all our legal requirements for visa processing. Highly recommended for apostille cases.",
+      text: "Servicio profesional de traducción de documentos con apostilla. Las traducciones certificadas cumplieron con todos nuestros requisitos legales para el procesamiento de visas. Altamente recomendado para casos de apostilla.",
       rating: 5
     }
   ];
@@ -31,9 +31,9 @@ const ContractTestimonials = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-6xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Apostille Document Translation Customers Say</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Lo Que Dicen Nuestros Clientes de Traducción de Documentos con Apostilla</h2>
           <p className="text-xl text-gray-600">
-            Trusted by individuals, law firms and consultants for professional apostille document translations
+            Confiado por individuos, bufetes de abogados y consultores para traducciones profesionales de documentos con apostilla
           </p>
         </div>
         
@@ -59,23 +59,23 @@ const ContractTestimonials = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Join Thousands of Satisfied Apostille Document Translation Customers</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Únase a Miles de Clientes Satisfechos de Traducción de Documentos con Apostilla</h3>
             <p className="text-gray-600 mb-6">
-              Professional apostille document translation services trusted by individuals, 
-              immigration attorneys and consultants worldwide for accurate and certified document translation.
+              Servicios profesionales de traducción de documentos con apostilla confiados por individuos, 
+              abogados de inmigración y consultores en todo el mundo para traducción precisa y certificada de documentos.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">3,200+</div>
-                <div className="text-gray-600">Apostille Documents Translated</div>
+                <div className="text-gray-600">Documentos con Apostilla Traducidos</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">99%</div>
-                <div className="text-gray-600">Customer Satisfaction Rate</div>
+                <div className="text-gray-600">Tasa de Satisfacción del Cliente</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600 mb-2">24h</div>
-                <div className="text-gray-600">Average Delivery Time</div>
+                <div className="text-gray-600">Tiempo Promedio de Entrega</div>
               </div>
             </div>
           </div>

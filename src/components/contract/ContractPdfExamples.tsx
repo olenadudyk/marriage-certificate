@@ -6,42 +6,42 @@ import { FileImage } from 'lucide-react';
 const ContractPdfExamples = () => {
   const pdfExamples = [
     {
-      title: "Spanish Birth Certificate with Apostille - Original Document",
-      description: "Complete birth certificate with apostille from Spanish civil registry",
-      location: "Spain, Spanish territories",
+      title: "Certificado de Nacimiento Español con Apostilla - Documento Original",
+      description: "Certificado de nacimiento completo con apostilla del registro civil español",
+      location: "España, territorios españoles",
       fileSize: "1.1 MB",
-      pages: "2 pages",
+      pages: "2 páginas",
       features: [
-        "Birth details",
-        "Apostille seal and certification", 
-        "Official government seals",
-        "Official and registrar signatures"
+        "Detalles de nacimiento",
+        "Sello y certificación de apostilla", 
+        "Sellos oficiales del gobierno",
+        "Firmas oficiales y del registrador"
       ]
     },
     {
-      title: "Certified English Translation - Official Format",
-      description: "Professional apostille document translation with certification letter",
-      location: "Ready for USCIS use",
+      title: "Traducción Certificada al Inglés - Formato Oficial",
+      description: "Traducción profesional de documento con apostilla con carta de certificación",
+      location: "Lista para uso de USCIS",
       fileSize: "1.7 MB", 
-      pages: "3 pages",
+      pages: "3 páginas",
       features: [
-        "USCIS-compliant format",
-        "Translator certification",
-        "Official letterhead",
-        "Notarized certification"
+        "Formato compatible con USCIS",
+        "Certificación del traductor",
+        "Membrete oficial",
+        "Certificación notarizada"
       ]
     },
     {
-      title: "Mexican Diploma with Apostille Translation",
-      description: "Educational diploma with apostille and certified translation",
-      location: "Mexico and other Spanish-speaking countries",
+      title: "Traducción de Diploma Mexicano con Apostilla",
+      description: "Diploma educativo con apostilla y traducción certificada",
+      location: "México y otros países de habla hispana",
       fileSize: "1.4 MB",
-      pages: "2 pages", 
+      pages: "2 páginas", 
       features: [
-        "Complete academic information",
-        "Apostille authentication translation",
-        "Certified translation certificate",
-        "Educational validation"
+        "Información académica completa",
+        "Traducción de autenticación de apostilla",
+        "Certificado de traducción certificada",
+        "Validación educativa"
       ]
     }
   ];
@@ -50,10 +50,10 @@ const ContractPdfExamples = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Apostille Document Translation Examples</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Ejemplos de Traducción de Documentos con Apostilla</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See examples of Spanish apostilled documents we translate for US visa applications and official procedures. 
-            Observe the quality and format of our certified apostille document translations.
+            Vea ejemplos de documentos españoles apostillados que traducimos para solicitudes de visa estadounidenses y procedimientos oficiales. 
+            Observe la calidad y formato de nuestras traducciones certificadas de documentos con apostilla.
           </p>
         </div>
         
@@ -74,7 +74,7 @@ const ContractPdfExamples = () => {
                 </div>
               </CardHeader>
               <CardContent>
-                <h4 className="font-semibold mb-3 text-gray-900">The document includes:</h4>
+                <h4 className="font-semibold mb-3 text-gray-900">El documento incluye:</h4>
                 <ul className="space-y-2">
                   {example.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start text-sm text-gray-700">
@@ -90,23 +90,23 @@ const ContractPdfExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-white border rounded-lg p-8 max-w-4xl mx-auto shadow-sm">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Apostille Document Translation Service</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción de Documentos con Apostilla</h3>
             <p className="text-gray-600 mb-6">
-              Our apostille document translations maintain the exact legal format and validity 
-              required by USCIS, consulates and international immigration authorities.
+              Nuestras traducciones de documentos con apostilla mantienen el formato legal exacto y la validez 
+              requerida por USCIS, consulados y autoridades internacionales de inmigración.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-2">Multiple Formats</div>
-                <div className="text-gray-600 text-sm">PDF, JPG, PNG and scanned documents</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">Múltiples Formatos</div>
+                <div className="text-gray-600 text-sm">PDF, JPG, PNG y documentos escaneados</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-2">Certified</div>
-                <div className="text-gray-600 text-sm">Translations accepted by official authorities</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">Certificado</div>
+                <div className="text-gray-600 text-sm">Traducciones aceptadas por autoridades oficiales</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-blue-600 mb-2">24 Hours</div>
-                <div className="text-gray-600 text-sm">Guaranteed fast delivery</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">24 Horas</div>
+                <div className="text-gray-600 text-sm">Entrega rápida garantizada</div>
               </div>
             </div>
           </div>

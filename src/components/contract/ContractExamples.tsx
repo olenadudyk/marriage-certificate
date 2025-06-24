@@ -5,35 +5,35 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const ContractExamples = () => {
   const examples = [
     {
-      title: "Birth Certificate with Apostille Translation",
-      description: "Official birth document with apostille certification",
+      title: "Traducción de Certificado de Nacimiento con Apostilla",
+      description: "Documento oficial de nacimiento con certificación de apostilla",
       features: [
-        "Complete birth information translation",
-        "Apostille seal and stamp translation", 
-        "Government signatures certified",
-        "Official verification included"
+        "Traducción completa de información de nacimiento",
+        "Traducción de sello y estampa de apostilla", 
+        "Firmas gubernamentales certificadas",
+        "Verificación oficial incluida"
       ],
       image: "📄"
     },
     {
-      title: "Educational Diploma with Apostille Translation", 
-      description: "Academic document with apostille validation",
+      title: "Traducción de Diploma Educativo con Apostilla", 
+      description: "Documento académico con validación de apostilla",
       features: [
-        "Complete academic information verified",
-        "University seal and signature translation",
-        "Apostille authentication certified",
-        "Educational registry documentation"
+        "Información académica completa verificada",
+        "Traducción de sello y firma universitaria",
+        "Autenticación de apostilla certificada",
+        "Documentación de registro educativo"
       ],
       image: "🎓"
     },
     {
-      title: "Marriage Certificate with Apostille Translation",
-      description: "Marriage document with apostille for immigration processing",
+      title: "Traducción de Certificado de Matrimonio con Apostilla",
+      description: "Documento de matrimonio con apostilla para procesamiento de inmigración",
       features: [
-        "Marriage details translation",
-        "Apostille seal translations",
-        "Government certification",
-        "Civil registry documentation"
+        "Traducción de detalles de matrimonio",
+        "Traducciones de sello de apostilla",
+        "Certificación gubernamental",
+        "Documentación de registro civil"
       ],
       image: "💍"
     }
@@ -43,10 +43,10 @@ const ContractExamples = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Professional Apostille Document Translation</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Traducción Profesional de Documentos con Apostilla</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Expert translation services for apostilled documents accepted by 
-            USCIS, consulates and official immigration authorities for visa applications and legal procedures.
+            Servicios de traducción expertos para documentos apostillados aceptados por 
+            USCIS, consulados y autoridades oficiales de inmigración para solicitudes de visa y procedimientos legales.
           </p>
         </div>
         
@@ -59,7 +59,7 @@ const ContractExamples = () => {
                 <p className="text-gray-600 text-sm">{example.description}</p>
               </CardHeader>
               <CardContent>
-                <h4 className="font-semibold mb-3 text-gray-900">Translation includes:</h4>
+                <h4 className="font-semibold mb-3 text-gray-900">La traducción incluye:</h4>
                 <ul className="space-y-2">
                   {example.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start text-sm text-gray-700">
@@ -75,29 +75,29 @@ const ContractExamples = () => {
         
         <div className="text-center mt-12">
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Apostille Document Translation Service</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Profesional de Traducción de Documentos con Apostilla</h3>
             <p className="text-gray-600 mb-6">
-              Our certified translators provide accurate apostille document translations that meet 
-              legal requirements and USCIS standards for visa applications and immigration procedures.
+              Nuestros traductores certificados proporcionan traducciones precisas de documentos con apostilla que cumplen 
+              con los requisitos legales y estándares de USCIS para solicitudes de visa y procedimientos de inmigración.
             </p>
             <div className="grid md:grid-cols-2 gap-6 text-left">
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Languages we serve:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Idiomas que atendemos:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Spanish to English</p>
-                  <p>• Portuguese to English</p>
-                  <p>• French to English</p>
-                  <p>• Other languages available</p>
+                  <p>• Español a Inglés</p>
+                  <p>• Portugués a Inglés</p>
+                  <p>• Francés a Inglés</p>
+                  <p>• Otros idiomas disponibles</p>
                 </div>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">Document types:</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Tipos de documentos:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Birth certificates with apostille</p>
-                  <p>• Educational diplomas with apostille</p>
-                  <p>• Marriage certificates with apostille</p>
-                  <p>• Legal documents with apostille</p>
-                  <p>• Apostille seal translations</p>
+                  <p>• Certificados de nacimiento con apostilla</p>
+                  <p>• Diplomas educativos con apostilla</p>
+                  <p>• Certificados de matrimonio con apostilla</p>
+                  <p>• Documentos legales con apostilla</p>
+                  <p>• Traducciones de sellos de apostilla</p>
                 </div>
               </div>
             </div>
