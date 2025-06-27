@@ -1,17 +1,10 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { useNavigate } from 'react-router-dom';
 
 const ContractHeader = () => {
-  const navigate = useNavigate();
-
   const handleLogoClick = () => {
-    navigate('/');
-  };
-
-  const handleHomeClick = () => {
-    navigate('/');
+    window.open('https://your-main-website.com', '_blank');
   };
 
   return (
@@ -32,7 +25,7 @@ const ContractHeader = () => {
           
           <Button 
             variant="outline" 
-            onClick={handleHomeClick}
+            onClick={handleLogoClick}
             className="text-blue-600 border-blue-600 hover:bg-blue-50"
           >
             Go to Home Page

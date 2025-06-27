@@ -9,7 +9,7 @@ const ContractTrustIndicators = () => {
           <div className="flex flex-wrap justify-center items-center gap-8 text-sm text-gray-600">
             <div className="flex items-center gap-2">
               <span className="text-yellow-500">★★★★★</span>
-              <span>4.9/5 from over 2,800 death certificate clients</span>
+              <span>4.9/5 from over 3,200 birth certificate clients</span>
             </div>
             <div className="flex items-center gap-2">
               <span>📋</span>
@@ -17,7 +17,7 @@ const ContractTrustIndicators = () => {
             </div>
             <div className="flex items-center gap-2">
               <span>✅</span>
-              <span>100% Legal Acceptance Rate</span>
+              <span>100% USCIS Acceptance Rate</span>
             </div>
             <div className="flex items-center gap-2">
               <span>🔒</span>

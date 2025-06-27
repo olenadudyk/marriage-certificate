@@ -18,15 +18,15 @@ const ContractFooter = () => {
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">For Clients</h4>
+            <h4 className="font-semibold mb-4">For Customers</h4>
             <ul className="space-y-2 text-gray-300 text-sm">
               <li><a href="#" className="hover:text-white">Translate.com Services</a></li>
-              <li><a href="#" className="hover:text-white">Online Document Translation</a></li>
+              <li><a href="#" className="hover:text-white">Translate Document Online</a></li>
               <li><a href="#" className="hover:text-white">Business Translation</a></li>
               <li><a href="#" className="hover:text-white">Medical Translation</a></li>
               <li><a href="#" className="hover:text-white">Technical Translation</a></li>
               <li><a href="#" className="hover:text-white">Email Translation</a></li>
-              <li><a href="#" className="hover:text-white">Text Proofreading</a></li>
+              <li><a href="#" className="hover:text-white">Proofreading</a></li>
             </ul>
           </div>
           

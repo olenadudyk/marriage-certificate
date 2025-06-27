@@ -5,35 +5,35 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const ContractExamples = () => {
   const examples = [
     {
-      title: "Full Death Certificate Translation",
-      description: "Complete death certificate with official certification",
+      title: "Full Birth Certificate Translation",
+      description: "Complete birth certificate with official certification",
       features: [
         "Complete civil registry seal translation",
         "Certified registrar signatures", 
-        "Cause of death information included",
-        "Date and place of death verified"
+        "Parent information included",
+        "Verified birth date and location"
       ],
       image: "📋"
     },
     {
-      title: "Short Form Death Certificate Translation", 
-      description: "Abstract or short form death certificate with validation",
+      title: "Short Form Birth Certificate Translation", 
+      description: "Abstract or short form birth certificate with validation",
       features: [
-        "Essential death details verified",
+        "Verified essential birth details",
         "Official registry information",
-        "Medical examiner or medical center details",
+        "Hospital or birth facility details",
         "Official certification included"
       ],
       image: "📄"
     },
     {
-      title: "International Death Certificate Translation",
-      description: "Foreign death certificate for US legal proceedings",
+      title: "International Birth Certificate Translation",
+      description: "Foreign birth certificate for US legal proceedings",
       features: [
         "Complete vital information",
         "Country-specific format recognized",
         "Official certification",
-        "Court compliant translation"
+        "USCIS compliant translation"
       ],
       image: "🌍"
     }
@@ -43,10 +43,10 @@ const ContractExamples = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Professional Death Certificate Translation</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Professional Birth Certificate Translation</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Expert translation services for death certificates accepted by 
-            courts, government agencies and legal institutions for estate matters and legal proceedings.
+            Expert translation services for birth certificates accepted by 
+            USCIS, courts, government agencies and legal institutions for immigration and citizenship purposes.
           </p>
         </div>
         
@@ -77,8 +77,8 @@ const ContractExamples = () => {
           <div className="bg-gray-50 border rounded-lg p-8 max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Vital Records Translation Service</h3>
             <p className="text-gray-600 mb-6">
-              Our certified translators provide accurate death certificate translations that meet 
-              legal requirements and document standards for official proceedings and estate matters.
+              Our certified translators provide accurate birth certificate translations that meet 
+              immigration requirements and legal document standards for official proceedings.
             </p>
             <div className="grid md:grid-cols-2 gap-6 text-left">
               <div>
@@ -93,9 +93,9 @@ const ContractExamples = () => {
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Document types:</h4>
                 <div className="text-sm text-gray-600 space-y-1">
-                  <p>• Full death certificates</p>
-                  <p>• Short form death certificates</p>
-                  <p>• Medical examiner reports</p>
+                  <p>• Full birth certificates</p>
+                  <p>• Short form birth certificates</p>
+                  <p>• Hospital birth records</p>
                   <p>• Civil registry certificates</p>
                 </div>
               </div>
